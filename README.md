@@ -3,7 +3,6 @@
 </div>
 
 ###
-
 <div align="center">
   <a href="https://www.linkedin.com/in/anderson-tavares-7450b3269/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
@@ -11,23 +10,18 @@
 </div>
 
 ###
-
 <h1 align="center">Hey, what's up? 👋💻 Welcome to my GitHub!</h1>
 
 ###
-
 <h3 align="left">👩‍💻  About Me</h3>
 
 ###
-
 <p align="left">- 🌍 I'm from Rio de Janeiro, Brazil 🇧🇷  <br>- 💻 Learning to code every day and diving into the world of Software Engineering 🚀  <br>- 📚 Currently focusing on Python, JavaScript, and web development (HTML, CSS)  <br>- 🧑‍💻 Working on small projects to improve my skills and get familiar with Git & GitHub  <br>- 🎮 In my free time, I love gaming and reading books 📖  <br>- 🌱 Always open to learning, experimenting with new tools and collaborating with others on beginner-friendly projects.</p>
 
 ###
-
 <h3 align="left">🛠 Language and tools</h3>
 
 ###
-
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
   <img width="12" />
@@ -45,14 +39,12 @@
 </div>
 
 ###
-
 <h3 align="left">🔥   My Stats :</h3>
 
-### Stats
-
+### 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AndersonTavares0&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=AndersonTavares0&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=AndersonTavares0&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="48%" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=AndersonTavares0&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="48%" alt="languages graph"  />
 </div>
 
 ###
