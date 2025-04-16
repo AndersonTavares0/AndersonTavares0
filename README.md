@@ -16,7 +16,7 @@
 <h3 align="left">👩‍💻  About Me</h3>
 
 ###
-<p align="left">- 🌍 I'm from Rio de Janeiro, Brazil 🇧🇷  <br>- 💻 Learning to code every day and diving into the world of Software Engineering 🚀  <br>- 📚 Currently focusing on Python, JavaScript, and web development (HTML, CSS)  <br>- 🧑‍💻 Working on small projects to improve my skills and get familiar with Git & GitHub  <br>- 🎮 In my free time, I love gaming and reading books 📖  <br>- 🌱 Always open to learning, experimenting with new tools and collaborating with others on beginner-friendly projects.</p>
+<p align="left">- 🌍 I'm from Rio de Janeiro, Brazil 🇧🇷  <br>- 💻 Learning to code every day and diving into the world of Software Engineering 🚀  <br>- 📚 Currently focusing on Java, JavaScript, and web development (HTML, CSS)  <br>- 🧑‍💻 Working on small projects to improve my skills and get familiar with Git & GitHub  <br>- 🎮 In my free time, I love gaming and reading books 📖  <br>- 🌱 Always open to learning, experimenting with new tools and collaborating with others on beginner-friendly projects.</p>
 
 ###
 <h3 align="left">🛠 Language and tools</h3>
@@ -30,8 +30,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="40" alt="flutter logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
   <img width="12" />
