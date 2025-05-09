@@ -16,7 +16,7 @@
 <h3 align="left">👩‍💻  Sobre mim</h3>
 
 ###
-<p align="left">- 🌍 Sou do Rio de Janeiro, Brasil 🇧🇷  <br>- 💻 estou aprendendo programação todos os dias e mergulhando no mundo da Engenharia de Software 🚀  <br>- 📚 Atualmente focado em java  <br>- 🧑‍💻 Trabalhando em pequenos projetos para melhorar minhas habilidades e me familiarizar com Git e GitHub 📖  <br>- 🌱 Sempre Aberto a aprender, experimentar novas ferramentas e colaborar com outros projetos voltados para iniciantes.</p>
+<p align="left">- 🌍 Sou do Rio de Janeiro, Brasil 🇧🇷  <br>- 💻 Estou aprendendo programação todos os dias e mergulhando no mundo da Engenharia de Software 🚀  <br>- 📚 Atualmente focado em java  <br>- 🧑‍💻 Trabalhando em pequenos projetos para melhorar minhas habilidades e me familiarizar com Git e GitHub 📖  <br>- 🌱 Sempre Aberto a aprender, experimentar novas ferramentas e colaborar com outros projetos voltados para iniciantes.</p>
 
 ###
 <h3 align="left">🛠 Linguagens e Ferramentas</h3>
