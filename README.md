@@ -10,16 +10,16 @@
 </div>
 
 ###
-<h1 align="center">Hey, what's up? 👋💻 Welcome to my GitHub!</h1>
+<h1 align="center">E aí, tudo bem ? 👋💻 Seja Bem Vindo ao meu GitHub!!</h1>
 
 ###
-<h3 align="left">👩‍💻  About Me</h3>
+<h3 align="left">👩‍💻  Sobre mim</h3>
 
 ###
-<p align="left">- 🌍 I'm from Rio de Janeiro, Brazil 🇧🇷  <br>- 💻 Learning to code every day and diving into the world of Software Engineering 🚀  <br>- 📚 Currently focusing on Java, JavaScript, and web development (HTML, CSS)  <br>- 🧑‍💻 Working on small projects to improve my skills and get familiar with Git & GitHub  <br>- 🎮 In my free time, I love gaming and reading books 📖  <br>- 🌱 Always open to learning, experimenting with new tools and collaborating with others on beginner-friendly projects.</p>
+<p align="left">- 🌍 Sou do Rio de Janeiro, Brasil 🇧🇷  <br>- 💻 estou aprendendo programação todos os dias e mergulhando no mundo da Engenharia de Software 🚀  <br>- 📚 Atualmente focado em java  <br>- 🧑‍💻 Trabalhando em pequenos projetos para melhorar minhas habilidades e me familiarizar com Git e GitHub 📖  <br>- 🌱 Sempre Aberto a aprender, experimentar novas ferramentas e colaborar com outros projetos voltados para iniciantes.</p>
 
 ###
-<h3 align="left">🛠 Language and tools</h3>
+<h3 align="left">🛠 Linguagens e Ferramentas</h3>
 
 ###
 <div align="left">
@@ -31,6 +31,12 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
   <img width="12" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" height="40" alt="Java logo"  />
+  <img width="12" />
+  <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" height="40" alt="Dart logo"  />
+  <img width="12" />
+  <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" height="40" alt="Flutter logo"  />
+  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
@@ -39,7 +45,7 @@
 </div>
 
 ###
-<h3 align="left">🔥   My Stats :</h3>
+<h3 align="left">🔥   Minhas Estatísticas:</h3>
 
 ### 
 <div align="center">
