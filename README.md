@@ -49,10 +49,9 @@
 
 ### 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AndersonTavares0&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="48%" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=AndersonTavares0&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="48%" alt="languages graph"  />
-</div>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=andersontavares0&show_icons=true&theme=dark&hide_border=true&locale=pt-br&layout=compact" alt="andersontavares0" /></p>
 
-###
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=andersontavares0&show_icons=true&theme=dark&hide_border=true&locale=pt-br" alt="andersontavares0" /></p>
+</div>
 
 ###
