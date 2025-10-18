@@ -18,7 +18,7 @@
 ###
 <p align="left">- 🌍 I'm from Rio de Janeiro, Brazil 🇧🇷  <br>- 💻 I'm learning programming every day and diving into the world of Software Engineering 🚀  <br>- 📚 Currently focused on Java  <br>- 🧑‍💻 Working on small projects to improve my skills and get familiar with Git and GitHub 📖  <br>- 🌱 Always open to learning, trying new tools, and collaborating on other beginner-friendly projects.</p>
 
-###
+
 <h3 align="left">🛠 Languages and Tools</h3>
 
 ###
@@ -39,7 +39,7 @@
   <img width="12" />
 </div>
 
-###
+
 <h3 align="left">🔥   My Stats:</h3>
 
 ### 
