@@ -13,12 +13,11 @@
 <h3 align="left">👩‍💻 About Me</h3>
 
 <p align="left">
-
-🌍 I'm from Rio de Janeiro, Brazil 🇧🇷 
-💻 I'm learning programming every day and diving into the world of Software Engineering 🚀 
-📚 Currently focused on Java 
-🧑‍💻 Working on small projects to improve my skills and get familiar with Git and GitHub 📖 
-🌱 Always open to learning, trying new tools, and collaborating on other beginner-friendly projects.
+🌍 I'm from Rio de Janeiro, Brazil 🇧🇷 <br>
+💻 I'm learning programming every day and diving into the world of Software Engineering 🚀 <br>
+📚 Currently focused on Java <br>
+🧑‍💻 Working on small projects to improve my skills and get familiar with Git and GitHub 📖 <br>
+🌱 Always open to learning, trying new tools, and collaborating on other beginner-friendly projects.<br>
 </p>
 
 <h3 align="left">🛠️ Languages and Tools</h3>
