@@ -38,9 +38,4 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo" />
 </div>
 
-<h3 align="left"> My Stats:</h3>
 
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=andersontavares0&show_icons=true&theme=dark&hide_border=true&locale=en" alt="Anderson Tavares's GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=andersontavares0&show_icons=true&theme=dark&hide_border=true&locale=en&layout=compact" alt="Anderson Tavares's Top Languages" />
-</div>
