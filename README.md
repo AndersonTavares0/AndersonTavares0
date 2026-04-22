@@ -2,40 +2,36 @@
 <img height="180" src="https://github.com/user-attachments/assets/ada3a570-d337-4e16-a55d-e3f3e27d089f" />
 </div>
 
-<div align="center">
-<a href="https://www.linkedin.com/in/anderson-tavares-7450b3269/" target="_blank">
-<img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
-</a>
-</div>
-
 <h1 align="center">Hey, how's it going? 👋💻 Welcome to my GitHub!!</h1>
 
-<h3 align="left">👩‍💻 About Me</h3>
+### 👨‍💻 About Me
 
-<p align="left">
-🌍 I'm from Rio de Janeiro, Brazil 🇧🇷 <br>
-💻 I'm learning programming every day and diving into the world of Software Engineering 🚀 <br>
-📚 Currently focused on Java <br>
-🧑‍💻 Working on small projects to improve my skills and get familiar with Git and GitHub 📖 <br>
-🌱 Always open to learning, trying new tools, and collaborating on other beginner-friendly projects.<br>
-</p>
+- 🌍 I'm from Rio de Janeiro, Brazil 🇧🇷
+- 🎓 I'm a **Software Engineering** student and an **Open Source** enthusiast.
+- 🐧 Currently using **Fedora Linux** as my primary workstation for development and productivity.
+- ☕ Deepening my knowledge in **Java 25 (OpenJDK)** and system architecture.
+- 🐍 Developing algorithms and automation scripts with **Python**.
+- 🌱 Always open to learning, trying new tools, and collaborating on projects.
 
-<h3 align="left">🛠️ Languages and Tools</h3>
+---
 
-<div align="left">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo" />
-<img width="12" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo" />
-<img width="12" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo" />
-<img width="12" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo" />
-<img width="12" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" height="40" alt="Java logo" />
-<img width="12" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo" />
-<img width="12" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo" />
-</div>
+### 💻 Development Setup
+- **OS:** Fedora Linux (Workstation)
+- **IDEs:** IntelliJ IDEA, PyCharm & VS Code
+- **Terminal:** Zsh + Oh My Zsh (Powerlevel10k)
+- **Version Control:** Git, GitHub & Lazygit
 
+---
 
+### 📊 Tech Stack & Tools
+
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Fedora](https://img.shields.io/badge/fedora-%2351A2DA.svg?style=for-the-badge&logo=fedora&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white)
+
+---
