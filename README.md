@@ -1,5 +1,7 @@
 <h1 align="center">Hey, how's it going? 👋💻 Welcome to my GitHub!!</h1>
 
+---
+
 ### 👨‍💻 About Me
 
 - 🌍 I'm from Rio de Janeiro, Brazil 🇧🇷
@@ -12,10 +14,14 @@
 ---
 
 ### 💻 Development Setup
-- **OS:** Fedora Linux (Workstation)
-- **IDEs:** IntelliJ IDEA, PyCharm & VS Code
-- **Terminal:** Zsh + Oh My Zsh (Powerlevel10k)
-- **Version Control:** Git, GitHub & Lazygit
+
+| | Linux | Windows |
+|---|---|---|
+| **OS** | Fedora Linux (Workstation) | Windows 11 |
+| **Shell** | Zsh + Oh My Zsh (Powerlevel10k) | PowerShell 7 + Oh My Posh |
+| **Terminal** | Zsh | Windows Terminal + Zoxide |
+| **IDEs** | IntelliJ IDEA, PyCharm, VS Code | IntelliJ IDEA, PyCharm, VS Code |
+| **Version Control** | Git, GitHub, Lazygit | Git, GitHub, Lazygit |
 
 ---
 
@@ -29,33 +35,27 @@
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
 ---
+
 ### ⚙️ GitHub Analytics
 
-<table>
-  <tr>
-    <td>
-      <img
-        align="left"
-        src="https://github-readme-stats.vercel.app/api?username=AndersonTavares0&theme=dark&hide_border=false&include_all_commits=true&count_private=true"
-        alt="Github Stats"
-      />
-    </td>
-    <td>
-      <img
-        align="left"
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndersonTavares0&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact"
-        alt="Github Stats"
-      />
-    </td>
-    <td>
-      <br />
-      <img
-        align="left"
-        src="https://github-readme-streak-stats.herokuapp.com/?user=AndersonTavares0&theme=dark&hide_border=false"
-        alt="Github Stats"
-      />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=AndersonTavares0&theme=dark&hide_border=false&include_all_commits=true&count_private=true"
+    alt="GitHub Stats"
+    width="32%"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndersonTavares0&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact"
+    alt="Top Languages"
+    width="32%"
+  />
+  <img
+    src="https://streak-stats.demolab.com?user=AndersonTavares0&theme=dark&hide_border=false"
+    alt="GitHub Streak"
+    width="32%"
+  />
+</p>
