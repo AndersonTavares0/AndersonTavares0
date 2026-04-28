@@ -68,22 +68,21 @@
 ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
 
 ---
-
 ### ⚙️ GitHub Analytics
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=AndersonTavares0&theme=dark&hide_border=false&include_all_commits=true&count_private=true"
+    src="https://github-readme-stats.vercel.app/api?username=AndersonTavares0&theme=dark&hide_border=false&include_all_commits=true&count_private=true&cache_seconds=1800&v=10"
     alt="GitHub Stats"
     width="32%"
   />
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndersonTavares0&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndersonTavares0&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact&cache_seconds=1800&v=10"
     alt="Top Languages"
     width="32%"
   />
   <img
-    src="https://streak-stats.demolab.com?user=AndersonTavares0&theme=dark&hide_border=false"
+    src="https://streak-stats.demolab.com?user=AndersonTavares0&theme=dark&hide_border=false&v=10"
     alt="GitHub Streak"
     width="32%"
   />
