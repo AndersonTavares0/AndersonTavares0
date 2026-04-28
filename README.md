@@ -1,4 +1,8 @@
-<h1 align="center">Hey, how's it going? 👋💻 Welcome to my GitHub!!</h1>
+<h1 align="center">Turning coffee into code. Welcome to my GitHub! ☕🚀</h1>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=3670A0&background=0D1117&center=true&vCenter=true&width=435&lines=Software+Engineering+Student;Open+Source+Enthusiast;Linux+%26+Java+Developer;Always+Learning" alt="Typing SVG" />
+</p>
 
 ---
 
@@ -10,6 +14,15 @@
 - ☕ Deepening my knowledge in **Java 25 (OpenJDK)** and system architecture.
 - 🐍 Developing algorithms and automation scripts with **Python**.
 - 🌱 Always open to learning, trying new tools, and collaborating on projects.
+
+---
+
+### 🚀 What I'm Currently Working On
+
+- 🔭 Expanding my expertise in **system architecture** and **backend development**
+- 🛠️ Building automation tools and improving my workflow with **Linux**
+- 📚 Exploring new frameworks and best practices in software engineering
+- 💡 Open to collaborations on interesting projects!
 
 ---
 
@@ -27,17 +40,23 @@
 
 ### 📊 Tech Stack & Tools
 
+#### Languages & Frameworks
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Fedora](https://img.shields.io/badge/fedora-%2351A2DA.svg?style=for-the-badge&logo=fedora&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+
+#### Platforms & OS
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Fedora](https://img.shields.io/badge/fedora-%2351A2DA.svg?style=for-the-badge&logo=fedora&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+
+#### Tools & Technologies
 ![Git](https://img.shields.io/badge/git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-[![Ollama](https://img.shields.io/badge/Ollama-fff?logo=ollama&logoColor=000)](#)
+![Ollama](https://img.shields.io/badge/Ollama-fff?logo=ollama&logoColor=000&style=for-the-badge)
+
 ---
 
 ### ⚙️ GitHub Analytics
@@ -58,4 +77,4 @@
     alt="GitHub Streak"
     width="32%"
   />
-</p>
+<
