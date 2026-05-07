@@ -69,10 +69,3 @@
 ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
 
 ---
-
-### 📈 GitHub Analytics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AndersonTavares0&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Anderson's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndersonTavares0&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
-</p>
