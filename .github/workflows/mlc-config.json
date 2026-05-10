@@ -1,0 +1,9 @@
+{
+  "aliveStatusCodes": [200, 301, 302],
+  "baseUrl": "https://github.com/AndersonTavares0",
+  "ignorePatterns": [
+    {
+      "pattern": "^https://img.shields.io"
+    }
+  ]
+}

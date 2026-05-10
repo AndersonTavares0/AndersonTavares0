@@ -8,12 +8,16 @@ __pycache__/
 *.pyd
 .Python
 *.so
+.coverage
 
 # Local development
 *.egg-info/
 dist/
 build/
 .eggs/
+venv/
+env/
+.pytest_cache/
 
 # IDE
 .vscode/
@@ -24,3 +28,11 @@ build/
 # OS
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
