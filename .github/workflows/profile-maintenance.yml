@@ -1,0 +1,27 @@
+name: Profile Maintenance
+
+on:
+  schedule:
+    # Run every day at 00:00
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install link checker
+        run: npm install -g markdown-link-check
+
+      - name: Check README links
+        run: |
+          markdown-link-check README.md \
+            --config .github/workflows/mlc-config.json 2>&1 || true

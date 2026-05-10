@@ -20,24 +20,14 @@ This repository has a simple structure:
 - `graphify.json` - Graphify configuration file
 - `.github/workflows/` - GitHub Actions workflows directory
 
-## Graphify Configuration
-
-This repository is configured to work with graphify for knowledge graph generation. The following files are used:
-
-- `graphify.json` - Configuration file for graphify settings
-- `graphify-out/` - Output directory for graphify results
-
-## Key Commands
-
-- `graphify .` - Run graphify on current directory
-- `graphify --help` - Show help information
-
 ## Repository Structure
 
-This is a simple repository with minimal files:
+This repository has a simple structure:
 - `README.md` - Main profile information
 - `LICENSE` - Repository license
-- `.git/` - Git metadata
+- `AGENTS.md` - Agent configuration file
+- `.gitignore` - Git ignore file
+- `.github/workflows/` - GitHub Actions workflows directory
 
 ## Development Setup
 
