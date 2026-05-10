@@ -17,16 +17,6 @@ This repository has a simple structure:
 - `LICENSE` - Repository license
 - `AGENTS.md` - Agent configuration file
 - `.gitignore` - Git ignore file
-- `graphify.json` - Graphify configuration file
-- `.github/workflows/` - GitHub Actions workflows directory
-
-## Repository Structure
-
-This repository has a simple structure:
-- `README.md` - Main profile information
-- `LICENSE` - Repository license
-- `AGENTS.md` - Agent configuration file
-- `.gitignore` - Git ignore file
 - `.github/workflows/` - GitHub Actions workflows directory
 
 ## Development Setup
