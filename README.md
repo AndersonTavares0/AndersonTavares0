@@ -9,11 +9,15 @@
 ### 👨‍💻 About Me
 
 - 🌍 I'm from Rio de Janeiro, Brazil 🇧🇷
-- 🎓 I'm a **Software Engineering** student and an **Open Source** enthusiast.
+- 🎓 I'm a **Software Engineering** and **Data Science** student and an **Open Source** enthusiast.
 - 🐧 Currently using **Fedora Linux** as my primary workstation for development and productivity.
 - ☕ Deepening my knowledge in **Java 25 (OpenJDK)** and system architecture.
 - 🐍 Developing algorithms and automation scripts with **Python**.
 - 🌱 Always open to learning, trying new tools, and collaborating on projects.
+
+### 📍 Let's Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anderson-tavares-7450b3269/)
 
 ---
 
