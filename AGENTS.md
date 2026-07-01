@@ -1,51 +1,33 @@
 # AGENTS.md
 
-This file contains important guidance for working with this repository.
+## Repository
 
-## Repository Overview
+Personal GitHub profile README (`README.md`). Not a software project — no build,
+test, or deploy commands. The only file that matters for content changes is
+`README.md`.
 
-This is a personal GitHub profile repository showcasing the owner's software engineering work. It contains:
+## Core Constraints
 
-- Profile information in README.md
-- Basic development setup and tech patching information
-- No complex project structure since it's primarily a profile repository
+- **Honesty.** Never inflate skill level. Never invent projects, technologies,
+  or experience. "Tech Stack" = daily use. "Currently Studying" = learning.
+  Never merge these sections. Never move items from Studying to Stack without
+  asking.
 
-## Repository Structure
+- **No decorative badges.** Every badge must reflect actual daily-use technology.
+  No GitHub Stats, Streak Stats, Top Languages, Snake, Visitor Counter, GIFs,
+  animations, or typing SVGs.
 
-This repository has a simple structure:
-- `README.md` - Main profile information
-- `LICENSE` - Repository license
-- `AGENTS.md` - Agent configuration file
-- `.gitignore` - Git ignore file
-- `.github/workflows/` - GitHub Actions workflows directory
+- **OpenCode badge** refers to OpenCode Harness (opencode.ai), not OpenAI.
+  Keep it logoless — never add an OpenAI, Codex, or ChatGPT association.
 
-## Development Setup
+- **Projects** must be real repos owned by AndersonTavares0 on GitHub. Format:
+  capitalized name, 1-line description, `**Stack:**`, `[Repository]` link.
 
-Based on the README, the owner uses:
-- **OS**: Fedora Linux (Workstation) and Windows 11
-- **Shell**: Zsh + Oh My Zsh (Powerlevel10k) on Linux, PowerShell 7 + Oh My Posh on Windows
-- **Terminal**: Alacritty with Zoxide
-- **IDEs**: IntelliJ IDEA, PyCharm, VS Code
-- **Version Control**: Git, GitHub, Lazygit
+## README Section Order
 
-## Tech Stack
+Header → About Me → Current Focus → Tech Stack → Currently Studying → Featured Projects
 
-The owner works with:
-- **Languages**: Java, Python, TypeScript, JavaScript, HTML, CSS
-- **Platforms**: Linux (Fedora), Windows
-- **Tools**: Git, PowerShell, Ollama, OpenCode
-- **Mobile**: Flutter, Dart
-
-## Common Tasks
-
-- Updating profile information in README.md
-- Adding new sections to showcase projects or skills
-- Updating tech stack badges
-- Maintaining current development setup information
-
-## Important Notes
-
-- This repository serves as a personal profile, not a software project
-- Changes should maintain the clean, professional presentation of the profile
-- Any added files should follow the existing minimal approach
-- Focus on clear presentation of skills and experience rather than complex technical implementations
+- About Me: paragraph form, no bullets.
+- Tech Stack: badges in 2 categories (Languages, Tools & Environments).
+- Currently Studying: text only, no badges.
+- Featured Projects: 3 repos in order of relevance.
