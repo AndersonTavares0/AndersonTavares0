@@ -43,12 +43,12 @@ CLT severance simulator for financial education.
 **Stack:** TypeScript, React
 [Repository](https://github.com/AndersonTavares0/fgts-simulator)
 
-#### config-powershell7
+#### Config PowerShell 7
 High-performance, modular PowerShell 7+ profile.
 **Stack:** PowerShell
 [Repository](https://github.com/AndersonTavares0/config-powershell7)
 
-#### zsh_profile
+#### Zsh Profile
 Zsh configuration for Fedora Linux with sub-150ms startup.
 **Stack:** Shell
 [Repository](https://github.com/AndersonTavares0/zsh_profile)
