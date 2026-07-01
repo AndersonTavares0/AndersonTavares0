@@ -1,6 +1,6 @@
-# Anderson Tavares · [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anderson-tavares-7450b3269/)
+# Anderson Tavares
 
-**Software Engineering & Data Science Student**
+**Software Engineering & Data Science Student** · [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anderson-tavares-7450b3269/)
 
 ---
 
