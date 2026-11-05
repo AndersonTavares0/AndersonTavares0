@@ -22,7 +22,7 @@ I’m a Software Engineering and Data Science student in Rio de Janeiro, curious
       <td width="170" valign="middle"><sub><b>Languages</b></sub></td>
       <td>
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,rust,ts,bash&theme=dark&perline=4">
+          <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py%2Crust%2Cts%2Cbash&theme=dark&perline=4">
           <img height="36" src="https://skillicons.dev/icons?i=py,rust,ts,bash&theme=light&perline=4" alt="Python, Rust, TypeScript, Bash">
         </picture>
       </td>
@@ -31,7 +31,7 @@ I’m a Software Engineering and Data Science student in Rio de Janeiro, curious
       <td valign="middle"><sub><b>Tools & Environments</b></sub></td>
       <td>
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres,svelte,tauri,docker,linux,githubactions&theme=dark&perline=6">
+          <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres%2Csvelte%2Ctauri%2Cdocker%2Clinux%2Cgithubactions&theme=dark&perline=6">
           <img height="36" src="https://skillicons.dev/icons?i=postgres,svelte,tauri,docker,linux,githubactions&theme=light&perline=6" alt="PostgreSQL, Svelte, Tauri, Docker, Linux, GitHub Actions">
         </picture>
       </td>
