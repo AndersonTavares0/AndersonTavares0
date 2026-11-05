@@ -4,7 +4,7 @@
 
 **Software Engineering & Data Science student** · Rio de Janeiro, Brazil · [LinkedIn ↗](https://www.linkedin.com/in/andersonlimatavares/)
 
-<img src="assets/header.svg" width="164" alt="Animated signature: analytics bars breathing, an app window sketching its layout, a processor chip holding a pulse.">
+<img src="assets/header.svg" width="320" alt="Animated signature: a chart draws its line, an app window assembles its layout, and a GPU fan spins.">
 
 </div>
 

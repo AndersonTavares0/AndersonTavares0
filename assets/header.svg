@@ -1,36 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="164" height="52" viewBox="0 0 164 52" fill="none" role="img" aria-label="Analytics bars, an app window, and a processor chip">
-  <!-- data: bars breathe -->
-  <rect x="6.5" y="26" width="7" height="14" rx="2" fill="#8b949e">
-    <animate attributeName="height" values="14;9;14" dur="3.8s" repeatCount="indefinite"/>
-    <animate attributeName="y" values="26;31;26" dur="3.8s" repeatCount="indefinite"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="64" viewBox="0 0 320 64" fill="none" role="img" aria-label="A chart draws its line, an app window assembles its layout, and a GPU fan spins">
+  <!-- 01 — data: the line redraws itself -->
+  <rect x="20" y="12" width="68" height="40" rx="6" stroke="#7d8590" stroke-width="2"/>
+  <line x1="27" y1="46" x2="81" y2="46" stroke="#8b949e" stroke-width="1" stroke-dasharray="2 4" opacity="0.55"/>
+  <path d="M28 46 L38 36 L46 41 L56 27 L66 33 L78 22" pathLength="1" stroke="#2da44e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-dasharray="1">
+    <animate attributeName="stroke-dashoffset" values="1;0;1" keyTimes="0;0.8;1" dur="4.6s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="78" cy="22" r="2.2" fill="#2da44e">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.72;0.82;0.9;1" dur="4.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- 02 — software: the window assembles its layout -->
+  <rect x="128" y="12" width="64" height="40" rx="6" stroke="#7d8590" stroke-width="2"/>
+  <circle cx="136" cy="20" r="1.8" fill="#2da44e"/>
+  <circle cx="142" cy="20" r="1.8" fill="#8b949e"/>
+  <circle cx="148" cy="20" r="1.8" fill="#8b949e"/>
+  <rect x="133" y="25" width="10" height="20" rx="2" fill="#8b949e" opacity="0.5"/>
+  <rect x="148" y="25" width="12" height="8" rx="2" fill="#8b949e" opacity="0.85">
+    <animate attributeName="width" values="12;38;12" keyTimes="0;0.7;1" dur="4.2s" begin="0.4s" repeatCount="indefinite"/>
   </rect>
-  <rect x="16" y="20" width="7" height="20" rx="2" fill="#8b949e">
-    <animate attributeName="height" values="20;13;20" dur="3.8s" begin="0.4s" repeatCount="indefinite"/>
-    <animate attributeName="y" values="20;27;20" dur="3.8s" begin="0.4s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="25.5" y="13" width="7" height="27" rx="2" fill="#2da44e">
-    <animate attributeName="height" values="27;20;27" dur="3.8s" begin="0.8s" repeatCount="indefinite"/>
-    <animate attributeName="y" values="13;20;13" dur="3.8s" begin="0.8s" repeatCount="indefinite"/>
+  <rect x="148" y="37" width="8" height="5" rx="2" fill="#8b949e" opacity="0.45">
+    <animate attributeName="width" values="8;26;8" keyTimes="0;0.7;1" dur="4.2s" begin="0.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.45;0.75;0.45" keyTimes="0;0.7;1" dur="4.2s" begin="0.8s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- software: window sketches its layout -->
-  <rect x="66" y="13" width="28" height="26" rx="4" stroke="#8b949e" stroke-width="2"/>
-  <circle cx="70.5" cy="17.5" r="1.6" fill="#2da44e"/>
-  <circle cx="75.5" cy="17.5" r="1.6" fill="#8b949e"/>
-  <circle cx="80.5" cy="17.5" r="1.6" fill="#8b949e"/>
-  <rect x="69" y="21" width="8" height="15" rx="1.5" fill="#8b949e" opacity="0.55"/>
-  <rect x="80" y="23" width="11" height="11" rx="1.5" fill="#8b949e" opacity="0.75">
-    <animate attributeName="y" values="23;21;23" dur="4.2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.75;0.35;0.75" dur="4.2s" repeatCount="indefinite"/>
+  <!-- 03 — systems: the GPU breathes -->
+  <rect x="230" y="12" width="72" height="40" rx="6" stroke="#7d8590" stroke-width="2"/>
+  <g transform="translate(252 32)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="7s" repeatCount="indefinite"/>
+      <rect x="-1.5" y="-11" width="3" height="9" rx="1.5" fill="#8b949e" transform="rotate(0)"/>
+      <rect x="-1.5" y="-11" width="3" height="9" rx="1.5" fill="#8b949e" transform="rotate(120)"/>
+      <rect x="-1.5" y="-11" width="3" height="9" rx="1.5" fill="#8b949e" transform="rotate(240)"/>
+    </g>
+    <circle r="13" stroke="#7d8590" stroke-width="2"/>
+    <circle r="3" fill="#8b949e"/>
+  </g>
+  <rect x="274" y="24" width="16" height="16" rx="3" stroke="#7d8590" stroke-width="2"/>
+  <rect x="278.5" y="28.5" width="7" height="7" rx="1.5" fill="#2da44e">
+    <animate attributeName="opacity" values="0.35;0.95;0.35" keyTimes="0;0.5;1" dur="4.6s" begin="1.2s" repeatCount="indefinite"/>
   </rect>
-
-  <!-- systems: chip holds a pulse -->
-  <rect x="128" y="14" width="24" height="24" rx="4" stroke="#8b949e" stroke-width="2"/>
-  <rect x="136" y="22" width="8" height="8" rx="1.5" fill="#2da44e">
-    <animate attributeName="opacity" values="0.35;0.95;0.35" dur="4.6s" begin="1s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="123" y="19" width="4" height="4" rx="1" fill="#8b949e"/>
-  <rect x="123" y="28" width="4" height="4" rx="1" fill="#8b949e"/>
-  <rect x="153" y="19" width="4" height="4" rx="1" fill="#8b949e"/>
-  <rect x="153" y="28" width="4" height="4" rx="1" fill="#8b949e"/>
 </svg>
