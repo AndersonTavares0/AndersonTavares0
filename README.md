@@ -39,7 +39,7 @@ I’m a Software Engineering and Data Science student in Rio de Janeiro, curious
   </tbody>
 </table>
 
-*Currently learning: AWS, applied statistics, and machine-learning fundamentals.*
+*Currently learning (Nov 2026): AWS, applied statistics, and machine-learning fundamentals.*
 
 ## Selected Work
 
@@ -74,3 +74,5 @@ I’m a Software Engineering and Data Science student in Rio de Janeiro, curious
     </tr>
   </tbody>
 </table>
+
+**The fastest view of the work is the [01 Retail Analytics report](https://AndersonTavares0.github.io/ds-portfolio/reports/01-retail-analytics/01-business-analytics.html) ↗** — and I'm open to talk on [LinkedIn](https://www.linkedin.com/in/andersonlimatavares/).
