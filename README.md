@@ -21,15 +21,19 @@ I’m a Software Engineering and Data Science student in Rio de Janeiro, curious
     <tr>
       <td width="170" valign="middle"><sub><b>Languages</b></sub></td>
       <td>
-        <img height="36" src="https://skillicons.dev/icons?i=py,rust,ts,bash&theme=light&perline=4#gh-light-mode-only" alt="Python, Rust, TypeScript, Bash">
-        <img height="36" src="https://skillicons.dev/icons?i=py,rust,ts,bash&theme=dark&perline=4#gh-dark-mode-only" alt="Python, Rust, TypeScript, Bash">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,rust,ts,bash&theme=dark&perline=4">
+          <img height="36" src="https://skillicons.dev/icons?i=py,rust,ts,bash&theme=light&perline=4" alt="Python, Rust, TypeScript, Bash">
+        </picture>
       </td>
     </tr>
     <tr>
       <td valign="middle"><sub><b>Tools & Environments</b></sub></td>
       <td>
-        <img height="36" src="https://skillicons.dev/icons?i=postgres,svelte,tauri,docker,linux,githubactions&theme=light&perline=6#gh-light-mode-only" alt="PostgreSQL, Svelte, Tauri, Docker, Linux, GitHub Actions">
-        <img height="36" src="https://skillicons.dev/icons?i=postgres,svelte,tauri,docker,linux,githubactions&theme=dark&perline=6#gh-dark-mode-only" alt="PostgreSQL, Svelte, Tauri, Docker, Linux, GitHub Actions">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres,svelte,tauri,docker,linux,githubactions&theme=dark&perline=6">
+          <img height="36" src="https://skillicons.dev/icons?i=postgres,svelte,tauri,docker,linux,githubactions&theme=light&perline=6" alt="PostgreSQL, Svelte, Tauri, Docker, Linux, GitHub Actions">
+        </picture>
       </td>
     </tr>
   </tbody>
