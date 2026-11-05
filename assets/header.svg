@@ -3,91 +3,116 @@
   <g>
     <rect x="8" y="10" width="96" height="44" rx="6" fill="none" stroke="#7d8590" stroke-width="2"/>
     <line x1="22" y1="40" x2="90" y2="40" stroke="#7d8590" stroke-width="1" stroke-dasharray="2 3" opacity="0.6"/>
-    <!-- bars grow from the baseline, tallest = on-time satisfaction (green) -->
-    <g transform="translate(26.5,40) scale(0,1)">
-      <rect x="-4.5" y="-22" width="9" height="22" fill="#2da44e"/>
-      <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.1;0.82;1" dur="6s" begin="0.2s" repeatCount="indefinite"/>
+    <!-- bars grow from the baseline; bars hidden (opacity 0) until their scale cycle begins -->
+    <g transform="translate(26.5,40)">
+      <rect x="-4.5" y="-22" width="9" height="22" fill="#2da44e" opacity="0">
+        <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.1;0.82;1" dur="6s" begin="0.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.88;1" dur="6s" begin="0.2s" repeatCount="indefinite"/>
+      </rect>
     </g>
-    <g transform="translate(40.5,40) scale(0,1)">
-      <rect x="-4.5" y="-11" width="9" height="11" fill="#8b949e"/>
-      <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.1;0.82;1" dur="6s" begin="0.45s" repeatCount="indefinite"/>
+    <g transform="translate(40.5,40)">
+      <rect x="-4.5" y="-11" width="9" height="11" fill="#8b949e" opacity="0">
+        <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.1;0.82;1" dur="6s" begin="0.45s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.88;1" dur="6s" begin="0.45s" repeatCount="indefinite"/>
+      </rect>
     </g>
-    <g transform="translate(54.5,40) scale(0,1)">
-      <rect x="-4.5" y="-8" width="9" height="8" fill="#8b949e"/>
-      <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.1;0.82;1" dur="6s" begin="0.7s" repeatCount="indefinite"/>
+    <g transform="translate(54.5,40)">
+      <rect x="-4.5" y="-8" width="9" height="8" fill="#8b949e" opacity="0">
+        <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.1;0.82;1" dur="6s" begin="0.7s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.88;1" dur="6s" begin="0.7s" repeatCount="indefinite"/>
+      </rect>
     </g>
-    <g transform="translate(68.5,40) scale(0,1)">
-      <rect x="-4.5" y="-7" width="9" height="7" fill="#8b949e"/>
-      <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.1;0.82;1" dur="6s" begin="0.95s" repeatCount="indefinite"/>
+    <g transform="translate(68.5,40)">
+      <rect x="-4.5" y="-7" width="9" height="7" fill="#8b949e" opacity="0">
+        <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.1;0.82;1" dur="6s" begin="0.95s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.88;1" dur="6s" begin="0.95s" repeatCount="indefinite"/>
+      </rect>
     </g>
-    <g transform="translate(82.5,40) scale(0,1)">
-      <rect x="-4.5" y="-5" width="9" height="5" fill="#8b949e"/>
-      <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.1;0.82;1" dur="6s" begin="1.2s" repeatCount="indefinite"/>
+    <g transform="translate(82.5,40)">
+      <rect x="-4.5" y="-5" width="9" height="5" fill="#8b949e" opacity="0">
+        <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.1;0.82;1" dur="6s" begin="1.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.88;1" dur="6s" begin="1.2s" repeatCount="indefinite"/>
+      </rect>
     </g>
   </g>
 
   <!-- Card 02 SOFTWARE: shelves filling with course books, LearnVault -->
   <g>
     <rect x="112" y="10" width="96" height="44" rx="6" fill="none" stroke="#7d8590" stroke-width="2"/>
-    <!-- lower shelf at y=46, upper shelf at y=28 -->
     <line x1="124" y1="46" x2="196" y2="46" stroke="#7d8590" stroke-width="1.5"/>
     <line x1="124" y1="28" x2="196" y2="28" stroke="#7d8590" stroke-width="1.5"/>
-    <!-- lower row books -->
-    <g transform="translate(131,46) scale(0,1)">
-      <rect x="-3" y="-19" width="6" height="19" rx="1" fill="#8b949e"/>
-      <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.12;0.8;1" dur="6s" begin="0.5s" repeatCount="indefinite"/>
+    <!-- lower shelf -->
+    <g transform="translate(131,46)">
+      <rect x="-3" y="-19" width="6" height="19" rx="1" fill="#8b949e" opacity="0">
+        <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.12;0.8;1" dur="6s" begin="0.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.88;1" dur="6s" begin="0.5s" repeatCount="indefinite"/>
+      </rect>
     </g>
-    <g transform="translate(140,46) scale(0,1)">
-      <rect x="-3" y="-14" width="6" height="14" rx="1" fill="#8b949e"/>
-      <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.12;0.8;1" dur="6s" begin="0.65s" repeatCount="indefinite"/>
+    <g transform="translate(140,46)">
+      <rect x="-3" y="-14" width="6" height="14" rx="1" fill="#8b949e" opacity="0">
+        <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.12;0.8;1" dur="6s" begin="0.65s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.88;1" dur="6s" begin="0.65s" repeatCount="indefinite"/>
+      </rect>
     </g>
-    <g transform="translate(150,46) scale(0,1)">
-      <rect x="-4" y="-17" width="8" height="17" rx="1" fill="#8b949e"/>
-      <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.12;0.8;1" dur="6s" begin="0.8s" repeatCount="indefinite"/>
+    <g transform="translate(150,46)">
+      <rect x="-4" y="-17" width="8" height="17" rx="1" fill="#8b949e" opacity="0">
+        <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.12;0.8;1" dur="6s" begin="0.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.88;1" dur="6s" begin="0.8s" repeatCount="indefinite"/>
+      </rect>
     </g>
-    <g transform="translate(161,46) scale(0,1)">
-      <rect x="-3" y="-11" width="6" height="11" rx="1" fill="#2da44e"/>
-      <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.12;0.8;1" dur="6s" begin="0.95s" repeatCount="indefinite"/>
+    <g transform="translate(161,46)">
+      <rect x="-3" y="-11" width="6" height="11" rx="1" fill="#2da44e" opacity="0">
+        <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.12;0.8;1" dur="6s" begin="0.95s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.88;1" dur="6s" begin="0.95s" repeatCount="indefinite"/>
+      </rect>
     </g>
-    <g transform="translate(171,46) scale(0,1)">
-      <rect x="-3.5" y="-15" width="7" height="15" rx="1" fill="#8b949e"/>
-      <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.12;0.8;1" dur="6s" begin="1.1s" repeatCount="indefinite"/>
+    <g transform="translate(171,46)">
+      <rect x="-3.5" y="-15" width="7" height="15" rx="1" fill="#8b949e" opacity="0">
+        <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.12;0.8;1" dur="6s" begin="1.1s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.88;1" dur="6s" begin="1.1s" repeatCount="indefinite"/>
+      </rect>
     </g>
-    <!-- upper row books -->
-    <g transform="translate(138,28) scale(0,1)">
-      <rect x="-3.5" y="-15" width="7" height="15" rx="1" fill="#8b949e"/>
-      <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.12;0.8;1" dur="6s" begin="1.3s" repeatCount="indefinite"/>
+    <!-- upper shelf -->
+    <g transform="translate(138,28)">
+      <rect x="-3.5" y="-15" width="7" height="15" rx="1" fill="#8b949e" opacity="0">
+        <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.12;0.8;1" dur="6s" begin="1.3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.88;1" dur="6s" begin="1.3s" repeatCount="indefinite"/>
+      </rect>
     </g>
-    <g transform="translate(149,28) scale(0,1)">
-      <rect x="-3" y="-11" width="6" height="11" rx="1" fill="#8b949e"/>
-      <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.12;0.8;1" dur="6s" begin="1.45s" repeatCount="indefinite"/>
+    <g transform="translate(149,28)">
+      <rect x="-3" y="-11" width="6" height="11" rx="1" fill="#8b949e" opacity="0">
+        <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.12;0.8;1" dur="6s" begin="1.45s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.88;1" dur="6s" begin="1.45s" repeatCount="indefinite"/>
+      </rect>
     </g>
-    <g transform="translate(160,28) scale(0,1)">
-      <rect x="-4" y="-16" width="8" height="16" rx="1" fill="#8b949e"/>
-      <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.12;0.8;1" dur="6s" begin="1.6s" repeatCount="indefinite"/>
+    <g transform="translate(160,28)">
+      <rect x="-4" y="-16" width="8" height="16" rx="1" fill="#8b949e" opacity="0">
+        <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.12;0.8;1" dur="6s" begin="1.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.88;1" dur="6s" begin="1.6s" repeatCount="indefinite"/>
+      </rect>
     </g>
-    <g transform="translate(172,28) scale(0,1)">
-      <rect x="-3" y="-12" width="6" height="12" rx="1" fill="#8b949e"/>
-      <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.12;0.8;1" dur="6s" begin="1.75s" repeatCount="indefinite"/>
+    <g transform="translate(172,28)">
+      <rect x="-3" y="-12" width="6" height="12" rx="1" fill="#8b949e" opacity="0">
+        <animateTransform attributeName="transform" type="scale" additive="sum" values="0 1;1 1;1 1;0 0" keyTimes="0;0.12;0.8;1" dur="6s" begin="1.75s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.88;1" dur="6s" begin="1.75s" repeatCount="indefinite"/>
+      </rect>
     </g>
   </g>
 
   <!-- Card 03 SYSTEMS: the throughput-vs-VRAM pareto frontier from llm-research-bench -->
   <g>
     <rect x="216" y="10" width="96" height="44" rx="6" fill="none" stroke="#7d8590" stroke-width="2"/>
-    <!-- frontier curve -->
     <path d="M 228 46 C 242 45, 258 38, 272 30 C 282 24.5, 292 21, 302 18.5" fill="none" stroke="#7d8590" stroke-width="1.5" stroke-dasharray="3 3"/>
-    <!-- candidate configurations appear, best one lands on the frontier (green, pulses) -->
-    <circle cx="244" cy="44.5" r="2.5" fill="#8b949e">
+    <circle cx="244" cy="44.5" r="2.5" fill="#8b949e" opacity="0">
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="6s" begin="0.6s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="260" cy="40" r="2.5" fill="#8b949e">
+    <circle cx="260" cy="40" r="2.5" fill="#8b949e" opacity="0">
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="6s" begin="1.0s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="266" cy="33" r="2.5" fill="#8b949e">
+    <circle cx="266" cy="33" r="2.5" fill="#8b949e" opacity="0">
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="6s" begin="1.4s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="296" cy="19.5" r="3.5" fill="#2da44e">
+    <circle cx="296" cy="19.5" r="3.5" fill="#2da44e" opacity="0">
       <animate attributeName="opacity" values="0;0.95;0.95;0" keyTimes="0;0.12;0.85;1" dur="6s" begin="1.9s" repeatCount="indefinite"/>
     </circle>
   </g>
