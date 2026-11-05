@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="310" viewBox="0 0 840 310" role="img" aria-labelledby="title desc">
+  <title id="title">Three projects across data, software, and systems</title>
+  <desc id="desc">Retail analytics: CSV to PostgreSQL and dbt to a Quarto report. LearnVault: local course folders to Rust and Svelte to web and desktop study. LLM Research Bench: a 4 GB GPU to llama.cpp inference to measured results.</desc>
+  <defs>
+    <style>
+      .panel { fill: #f6f8fa; stroke: #d8e0e8; }
+      .ink { fill: #172b3a; }
+      .muted { fill: #637487; }
+      .rule { stroke: #d8e0e8; }
+      .tag { font: 700 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; letter-spacing: 1.4px; }
+      .name { font: 700 16px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      .step { font: 500 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      .num { font: 700 13px ui-monospace, SFMono-Regular, Menlo, monospace; }
+    </style>
+  </defs>
+  <rect class="panel" x="1" y="1" width="838" height="308" rx="18" />
+  <text class="muted tag" x="30" y="34">THREE PROJECTS · THREE SCALES</text>
+  <line class="rule" x1="30" y1="51" x2="810" y2="51" />
+  <g transform="translate(0 67)">
+    <text x="30" y="22" fill="#087e8b" class="num">01</text>
+    <text x="72" y="22" fill="#087e8b" class="tag">DATA</text>
+    <text class="ink name" x="178" y="22">Retail analytics</text>
+    <text class="muted step" x="398" y="22">CSV</text>
+    <line x1="427" y1="17" x2="458" y2="17" stroke="#087e8b" stroke-width="1.5" />
+    <circle cx="458" cy="17" r="3" fill="#087e8b" />
+    <text class="muted step" x="472" y="22">PostgreSQL + dbt</text>
+    <line x1="601" y1="17" x2="632" y2="17" stroke="#087e8b" stroke-width="1.5" />
+    <circle cx="632" cy="17" r="3" fill="#087e8b" />
+    <text class="muted step" x="646" y="22">Quarto report</text>
+    <line class="rule" x1="72" y1="48" x2="810" y2="48" />
+  </g>
+  <g transform="translate(0 151)">
+    <text x="30" y="22" fill="#bd5b36" class="num">02</text>
+    <text x="72" y="22" fill="#bd5b36" class="tag">SOFTWARE</text>
+    <text class="ink name" x="178" y="22">LearnVault</text>
+    <text class="muted step" x="398" y="22">Course folders</text>
+    <line x1="497" y1="17" x2="528" y2="17" stroke="#bd5b36" stroke-width="1.5" />
+    <circle cx="528" cy="17" r="3" fill="#bd5b36" />
+    <text class="muted step" x="542" y="22">Rust + Svelte</text>
+    <line x1="640" y1="17" x2="671" y2="17" stroke="#bd5b36" stroke-width="1.5" />
+    <circle cx="671" cy="17" r="3" fill="#bd5b36" />
+    <text class="muted step" x="685" y="22">Web + desktop</text>
+    <line class="rule" x1="72" y1="48" x2="810" y2="48" />
+  </g>
+  <g transform="translate(0 235)">
+    <text x="30" y="22" fill="#7653a6" class="num">03</text>
+    <text x="72" y="22" fill="#7653a6" class="tag">SYSTEMS</text>
+    <text class="ink name" x="178" y="22">LLM Research Bench</text>
+    <text class="muted step" x="398" y="22">4 GB GPU</text>
+    <line x1="465" y1="17" x2="496" y2="17" stroke="#7653a6" stroke-width="1.5" />
+    <circle cx="496" cy="17" r="3" fill="#7653a6" />
+    <text class="muted step" x="510" y="22">llama.cpp</text>
+    <line x1="585" y1="17" x2="616" y2="17" stroke="#7653a6" stroke-width="1.5" />
+    <circle cx="616" cy="17" r="3" fill="#7653a6" />
+    <text class="muted step" x="630" y="22">Measured results</text>
+  </g>
+</svg>
