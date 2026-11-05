@@ -2,24 +2,24 @@
 
 <p align="center">
   <strong>Software Engineering &amp; Data Science undergraduate</strong><br>
-  Software · data · Linux · infrastructure · automation
+  Data workflows · Linux systems · practical automation
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/andersonlimatavares/">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/andersonlimatavares/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
 ---
 
-### About
+### About Me
 
-I'm an undergraduate in Software Engineering and Data Science based in Rio de Janeiro, Brazil. I use personal projects to explore software development, data workflows, Linux environments, and automation, with an emphasis on practical, reproducible work.
+I’m an undergraduate in Software Engineering and Data Science based in Rio de Janeiro, Brazil. My projects range from analyzing Brazilian e-commerce data to building a self-hosted study app and measuring small-language-model inference on limited hardware. I’m especially interested in the practical work around reliable data pipelines, Linux environments, and tools that are useful to run and maintain.
 
 ### Current Focus
 
-- Building software and data projects end to end
-- Exploring Linux, self-hosted infrastructure, and developer tooling
-- Improving automation and operational workflows
+- Building end-to-end analytics workflows with clear, testable data models
+- Exploring self-hosted software, Linux tooling, and infrastructure
+- Learning more about cloud platforms, DevOps practices, and automation
 
 ### Tech Stack
 
@@ -41,27 +41,27 @@ I'm an undergraduate in Software Engineering and Data Science based in Rio de Ja
 
 ### Currently Studying
 
-pandas · statistics · machine-learning fundamentals · AWS
+pandas · applied statistics · machine-learning fundamentals · AWS
 
 ### Featured Projects
 
 #### [Retail Analytics Portfolio](https://github.com/AndersonTavares0/ds-portfolio)
 
-End-to-end analysis of Brazilian e-commerce data, with tested SQL/dbt models and published reports.
+A reproducible analysis of Brazilian e-commerce data, built from raw data through PostgreSQL and dbt models to a published report. One finding: late deliveries averaged 2.27/5 stars, compared with 4.29/5 for on-time orders in this dataset.
 
 **Stack:** Python, SQL, PostgreSQL, dbt, Quarto  
-**Repository:** [ds-portfolio](https://github.com/AndersonTavares0/ds-portfolio)
+**Explore:** [Analysis report](https://AndersonTavares0.github.io/ds-portfolio/reports/01-retail-analytics/01-business-analytics.html) · [Repository](https://github.com/AndersonTavares0/ds-portfolio)
 
 #### [LearnVault](https://github.com/AndersonTavares0/LearnVault)
 
-A self-hosted course library and study space, with web and desktop workflows.
+A self-hosted course library for organizing and studying local materials, with web and offline desktop workflows. The app reads course folders without altering the original files.
 
 **Stack:** Rust, Svelte, Tauri  
 **Repository:** [LearnVault](https://github.com/AndersonTavares0/LearnVault)
 
 #### [LLM Research Bench](https://github.com/AndersonTavares0/llm-research-bench)
 
-An experimental benchmark project studying small language-model inference on resource-constrained GPUs.
+An experimental benchmark of small-language-model inference on a 4 GB GPU, examining throughput, memory use, and quantization trade-offs. The repository includes reproducible runs and a technical report.
 
 **Stack:** Python, llama.cpp, NVIDIA NVML  
 **Repository:** [llm-research-bench](https://github.com/AndersonTavares0/llm-research-bench)
