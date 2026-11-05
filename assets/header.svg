@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="164" height="52" viewBox="0 0 164 52" fill="none" role="img" aria-label="Analytics bars, an app window, and a processor chip">
+  <!-- data: bars breathe -->
+  <rect x="6.5" y="26" width="7" height="14" rx="2" fill="#8b949e">
+    <animate attributeName="height" values="14;9;14" dur="3.8s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="26;31;26" dur="3.8s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="16" y="20" width="7" height="20" rx="2" fill="#8b949e">
+    <animate attributeName="height" values="20;13;20" dur="3.8s" begin="0.4s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="20;27;20" dur="3.8s" begin="0.4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="25.5" y="13" width="7" height="27" rx="2" fill="#2da44e">
+    <animate attributeName="height" values="27;20;27" dur="3.8s" begin="0.8s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="13;20;13" dur="3.8s" begin="0.8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- software: window sketches its layout -->
+  <rect x="66" y="13" width="28" height="26" rx="4" stroke="#8b949e" stroke-width="2"/>
+  <circle cx="70.5" cy="17.5" r="1.6" fill="#2da44e"/>
+  <circle cx="75.5" cy="17.5" r="1.6" fill="#8b949e"/>
+  <circle cx="80.5" cy="17.5" r="1.6" fill="#8b949e"/>
+  <rect x="69" y="21" width="8" height="15" rx="1.5" fill="#8b949e" opacity="0.55"/>
+  <rect x="80" y="23" width="11" height="11" rx="1.5" fill="#8b949e" opacity="0.75">
+    <animate attributeName="y" values="23;21;23" dur="4.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.75;0.35;0.75" dur="4.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- systems: chip holds a pulse -->
+  <rect x="128" y="14" width="24" height="24" rx="4" stroke="#8b949e" stroke-width="2"/>
+  <rect x="136" y="22" width="8" height="8" rx="1.5" fill="#2da44e">
+    <animate attributeName="opacity" values="0.35;0.95;0.35" dur="4.6s" begin="1s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="123" y="19" width="4" height="4" rx="1" fill="#8b949e"/>
+  <rect x="123" y="28" width="4" height="4" rx="1" fill="#8b949e"/>
+  <rect x="153" y="19" width="4" height="4" rx="1" fill="#8b949e"/>
+  <rect x="153" y="28" width="4" height="4" rx="1" fill="#8b949e"/>
+</svg>
