@@ -1,35 +1,31 @@
-<div align="center">
-
 # Anderson Tavares
 
-**Software Engineering · Data Science · Systems**
+<div align="center">
 
-Software Engineering & Data Science student based in Rio de Janeiro, Brazil.
+**Software Engineering & Data Science student** · Rio de Janeiro, Brazil · [LinkedIn](https://www.linkedin.com/in/andersonlimatavares/)
 
-[**Explore the data science portfolio**](https://AndersonTavares0.github.io/applied-data-science/) · [**LinkedIn**](https://www.linkedin.com/in/andersonlimatavares/) · [**Repositories**](https://github.com/AndersonTavares0?tab=repositories)
-
-<img src="assets/header.svg" width="860" alt="Three illustrated areas of work: data analysis, software development and systems research.">
+<img src="assets/header.svg" width="640" alt="Animated panels showing an Olist delivery comparison, a course-library interface, and a small-model benchmark.">
 
 </div>
 
 ## About Me
 
-I study software engineering and data science by building projects that connect **applications, data, and infrastructure**. My work ranges from a local-first learning platform to reproducible e-commerce studies and small-model inference experiments. I care about making systems understandable, testing assumptions, and documenting what the evidence does—and does not—show.
+I’m studying Software Engineering and Data Science in Rio de Janeiro. I’m interested in how applications, data, and infrastructure fit together, and I work on projects in each of those areas. Outside coursework, I spend time with Linux, self-hosting, and automation.
 
 ## Current Focus
 
-Backend engineering, practical system design, reproducible analysis, and Linux infrastructure. I’m developing these skills through projects with real code, tests, technical reports, and explicit trade-offs.
+Building backend fundamentals, improving my understanding of statistics and machine learning, and learning how to test and maintain software beyond the first working version.
 
 ## Tech Stack
 
-*Selected technologies visible in my repositories; proficiency varies by tool.*
+*Tools used in my public projects and configurations.*
 
 <table>
-<tr><td width="180"><b>Languages</b></td><td>
+<tr><td width="170"><b>Languages</b></td><td>
 <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
 <img src="https://img.shields.io/badge/Rust-24292f?logo=rust&logoColor=white" alt="Rust">
 <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript">
-<img src="https://img.shields.io/badge/SQL-4169E1?logo=postgresql&logoColor=white" alt="SQL">
+<img src="https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white" alt="Bash">
 </td></tr>
 <tr><td><b>Tools & Environments</b></td><td>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" alt="PostgreSQL">
@@ -41,63 +37,32 @@ Backend engineering, practical system design, reproducible analysis, and Linux i
 
 ## Currently Studying
 
-AWS · Applied statistics · Machine learning · Backend engineering
+AWS · Applied Statistics · Machine Learning · Backend Engineering
 
 ## Featured Projects
 
-<table>
-<tr>
-<td width="78" align="center" valign="top"><strong>01</strong><br><sub>DATA</sub></td>
-<td valign="top">
+### 01 / [Applied Data Science](https://github.com/AndersonTavares0/applied-data-science)
 
-### [Applied Data Science](https://github.com/AndersonTavares0/applied-data-science)
-
-**Three connected studies, one real-world dataset.** Investigating e-commerce fulfillment, late-delivery prediction, and customer complaints using the Olist dataset.
-
-**99,441 orders** analyzed · **3 published studies** · Predictive model explicitly marked **not ready for deployment**
+Three studies using the Olist e-commerce dataset: delivery performance, late-delivery risk prediction, and customer complaints. The site includes the results, code, and limitations. The prediction study concludes that the model should **not** be deployed as an operational queue.
 
 **Stack:** Python · SQL · PostgreSQL · dbt · React · TypeScript
 
-[**View the published studies ↗**](https://AndersonTavares0.github.io/applied-data-science/) · [Repository](https://github.com/AndersonTavares0/applied-data-science)
+[Repository](https://github.com/AndersonTavares0/applied-data-science) · [Published studies](https://AndersonTavares0.github.io/applied-data-science/)
 
-</td>
-</tr>
-<tr>
-<td align="center" valign="top"><strong>02</strong><br><sub>SOFTWARE</sub></td>
-<td valign="top">
+### 02 / [LearnVault](https://github.com/AndersonTavares0/LearnVault)
 
-### [LearnVault](https://github.com/AndersonTavares0/LearnVault)
-
-**A personal learning workspace built around files you already own.** Self-hosted browser access and an offline desktop application, with course browsing, playback, progress tracking, and a read-only original library.
+A self-hosted course library with a browser interface and offline desktop app. It indexes existing course folders, plays media, and keeps study progress without changing the original files.
 
 **Stack:** Rust · Svelte · TypeScript · Tauri · SQLite
 
-[**Explore the source ↗**](https://github.com/AndersonTavares0/LearnVault)
+[Repository](https://github.com/AndersonTavares0/LearnVault)
 
-</td>
-</tr>
-<tr>
-<td align="center" valign="top"><strong>03</strong><br><sub>SYSTEMS</sub></td>
-<td valign="top">
+### 03 / [LLM Research Bench](https://github.com/AndersonTavares0/llm-research-bench)
 
-### [LLM Research Bench](https://github.com/AndersonTavares0/llm-research-bench)
-
-**Small-model inference under a strict hardware budget.** Exploring throughput, quantization, and VRAM trade-offs on an NVIDIA GTX 1050 Ti (**4 GB**). Results are experimental and tied to specific configurations.
+Experiments with small language models on a GTX 1050 Ti with 4 GB of VRAM. The repository compares inference speed, memory use, and quantization settings, with notes on the limits of the measurements.
 
 **Stack:** Python · llama.cpp · NVIDIA NVML
 
-[**Read the technical report ↗**](https://github.com/AndersonTavares0/llm-research-bench/blob/main/reports/en-US/report_en-US.pdf) · [Repository](https://github.com/AndersonTavares0/llm-research-bench)
+[Repository](https://github.com/AndersonTavares0/llm-research-bench) · [Technical report](https://github.com/AndersonTavares0/llm-research-bench/blob/main/reports/en-US/report_en-US.pdf)
 
-</td>
-</tr>
-</table>
-
-<sub>Also exploring infrastructure and applied software: [Homelab](https://github.com/AndersonTavares0/homelab) · [FGTS Simulator](https://github.com/AndersonTavares0/fgts-simulator)</sub>
-
----
-
-<div align="center">
-
-**Interested in the work?** [See the published studies](https://AndersonTavares0.github.io/applied-data-science/) or [connect on LinkedIn](https://www.linkedin.com/in/andersonlimatavares/).
-
-</div>
+<sub>Other projects: [Homelab](https://github.com/AndersonTavares0/homelab) · [FGTS Simulator](https://github.com/AndersonTavares0/fgts-simulator)</sub>
