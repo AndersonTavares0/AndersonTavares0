@@ -1,61 +1,103 @@
+<div align="center">
+
 # Anderson Tavares
 
-**Software Engineering & Data Science student** · Rio de Janeiro, Brazil · [LinkedIn](https://www.linkedin.com/in/andersonlimatavares/)
+**Software Engineering · Data Science · Systems**
 
-![Data, software and systems — three areas of my project work](assets/header.svg)
+Software Engineering & Data Science student based in Rio de Janeiro, Brazil.
+
+[**Explore the data science portfolio**](https://AndersonTavares0.github.io/applied-data-science/) · [**LinkedIn**](https://www.linkedin.com/in/andersonlimatavares/) · [**Repositories**](https://github.com/AndersonTavares0?tab=repositories)
+
+<img src="assets/header.svg" width="860" alt="Three illustrated areas of work: data analysis, software development and systems research.">
+
+</div>
 
 ## About Me
 
-I'm a Software Engineering and Data Science student interested in building useful software and understanding how data, applications, and infrastructure work together. My public projects span reproducible data analysis, local-first applications, resource-constrained machine learning experiments, and self-hosted Linux infrastructure. I document trade-offs and limitations rather than presenting experiments as production-ready systems.
+I study software engineering and data science by building projects that connect **applications, data, and infrastructure**. My work ranges from a local-first learning platform to reproducible e-commerce studies and small-model inference experiments. I care about making systems understandable, testing assumptions, and documenting what the evidence does—and does not—show.
 
 ## Current Focus
 
-Backend and software engineering fundamentals, reproducible data science, and practical infrastructure automation. I use projects to study system design, testing, deployment, and the evidence needed to evaluate engineering decisions.
+Backend engineering, practical system design, reproducible analysis, and Linux infrastructure. I’m developing these skills through projects with real code, tests, technical reports, and explicit trade-offs.
 
 ## Tech Stack
 
-*Tools represented in my public projects; this is not a claim of expert proficiency or daily use of every tool.*
+*Selected technologies visible in my repositories; proficiency varies by tool.*
 
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-24292f?logo=rust&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-555555)
-
-**Tools & Environments**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-24292f?logo=linux&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
+<table>
+<tr><td width="180"><b>Languages</b></td><td>
+<img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/Rust-24292f?logo=rust&logoColor=white" alt="Rust">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript">
+<img src="https://img.shields.io/badge/SQL-4169E1?logo=postgresql&logoColor=white" alt="SQL">
+</td></tr>
+<tr><td><b>Tools & Environments</b></td><td>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" alt="PostgreSQL">
+<img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" alt="Docker">
+<img src="https://img.shields.io/badge/Linux-24292f?logo=linux&logoColor=white" alt="Linux">
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white" alt="GitHub Actions">
+</td></tr>
+</table>
 
 ## Currently Studying
 
-AWS, applied statistics, machine learning, and backend engineering.
+AWS · Applied statistics · Machine learning · Backend engineering
 
 ## Featured Projects
 
-### Applied Data Science
+<table>
+<tr>
+<td width="78" align="center" valign="top"><strong>01</strong><br><sub>DATA</sub></td>
+<td valign="top">
 
-Three reproducible studies of the Olist e-commerce dataset: fulfillment and customer experience, temporal validation of late-delivery risk, and complaint topic modeling. The published case studies explain both the findings and their limitations, including why the prediction model is **not recommended for production**.
+### [Applied Data Science](https://github.com/AndersonTavares0/applied-data-science)
 
-**Stack:** Python, SQL, PostgreSQL, dbt, scikit-learn, React, TypeScript.
+**Three connected studies, one real-world dataset.** Investigating e-commerce fulfillment, late-delivery prediction, and customer complaints using the Olist dataset.
 
-[Repository](https://github.com/AndersonTavares0/applied-data-science) · [Published studies](https://AndersonTavares0.github.io/applied-data-science/)
+**99,441 orders** analyzed · **3 published studies** · Predictive model explicitly marked **not ready for deployment**
 
-### LearnVault
+**Stack:** Python · SQL · PostgreSQL · dbt · React · TypeScript
 
-A self-hosted course library and offline desktop study workspace built around existing local course folders. It supports browsing, media playback, progress tracking, and study tools while keeping original course files read-only.
+[**View the published studies ↗**](https://AndersonTavares0.github.io/applied-data-science/) · [Repository](https://github.com/AndersonTavares0/applied-data-science)
 
-**Stack:** Rust, Svelte, TypeScript, Tauri, SQLite.
+</td>
+</tr>
+<tr>
+<td align="center" valign="top"><strong>02</strong><br><sub>SOFTWARE</sub></td>
+<td valign="top">
 
-[Repository](https://github.com/AndersonTavares0/LearnVault)
+### [LearnVault](https://github.com/AndersonTavares0/LearnVault)
 
-### LLM Research Bench
+**A personal learning workspace built around files you already own.** Self-hosted browser access and an offline desktop application, with course browsing, playback, progress tracking, and a read-only original library.
 
-Exploratory small-language-model inference experiments on an NVIDIA GTX 1050 Ti (4 GB). The project documents throughput, VRAM usage, quantization trade-offs, reproducibility, and methodological limitations; results are specific to the measured configurations.
+**Stack:** Rust · Svelte · TypeScript · Tauri · SQLite
 
-**Stack:** Python, llama.cpp, NVIDIA NVML.
+[**Explore the source ↗**](https://github.com/AndersonTavares0/LearnVault)
 
-[Repository](https://github.com/AndersonTavares0/llm-research-bench) · [Technical report](https://github.com/AndersonTavares0/llm-research-bench/blob/main/reports/en-US/report_en-US.pdf)
+</td>
+</tr>
+<tr>
+<td align="center" valign="top"><strong>03</strong><br><sub>SYSTEMS</sub></td>
+<td valign="top">
+
+### [LLM Research Bench](https://github.com/AndersonTavares0/llm-research-bench)
+
+**Small-model inference under a strict hardware budget.** Exploring throughput, quantization, and VRAM trade-offs on an NVIDIA GTX 1050 Ti (**4 GB**). Results are experimental and tied to specific configurations.
+
+**Stack:** Python · llama.cpp · NVIDIA NVML
+
+[**Read the technical report ↗**](https://github.com/AndersonTavares0/llm-research-bench/blob/main/reports/en-US/report_en-US.pdf) · [Repository](https://github.com/AndersonTavares0/llm-research-bench)
+
+</td>
+</tr>
+</table>
+
+<sub>Also exploring infrastructure and applied software: [Homelab](https://github.com/AndersonTavares0/homelab) · [FGTS Simulator](https://github.com/AndersonTavares0/fgts-simulator)</sub>
 
 ---
 
-Other work: [Homelab](https://github.com/AndersonTavares0/homelab) · [FGTS Simulator](https://github.com/AndersonTavares0/fgts-simulator)
+<div align="center">
 
-[Connect on LinkedIn](https://www.linkedin.com/in/andersonlimatavares/)
+**Interested in the work?** [See the published studies](https://AndersonTavares0.github.io/applied-data-science/) or [connect on LinkedIn](https://www.linkedin.com/in/andersonlimatavares/).
+
+</div>
