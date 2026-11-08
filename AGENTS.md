@@ -2,32 +2,21 @@
 
 ## Repository
 
-Personal GitHub profile README (`README.md`). Not a software project — no build,
-test, or deploy commands. The only file that matters for content changes is
-`README.md`.
+Personal GitHub profile README (`README.md`) with a single header illustration (`assets/header.svg`). No application build, test, or deployment.
 
 ## Core Constraints
 
-- **Honesty.** Never inflate skill level. Never invent projects, technologies,
-  or experience. "Tech Stack" = daily use. "Currently Studying" = learning.
-  Never merge these sections. Never move items from Studying to Stack without
-  asking.
-
-- **No decorative badges.** Every badge must reflect actual daily-use technology.
-  No GitHub Stats, Streak Stats, Top Languages, Snake, Visitor Counter, GIFs,
-  animations, or typing SVGs.
-
-- **OpenCode badge** refers to OpenCode Harness (opencode.ai), not OpenAI.
-  Keep it logoless — never add an OpenAI, Codex, or ChatGPT association.
-
-- **Projects** must be real repos owned by AndersonTavares0 on GitHub. Format:
-  capitalized name, 1-line description, `**Stack:**`, `[Repository]` link.
+- **Honesty.** Never inflate skill level or invent projects, technologies, experience, or results. Distinguish tools used in public projects from topics currently being studied. Do not imply professional expertise from a badge.
+- **Presentation.** Avoid GitHub Stats, Streak Stats, Top Languages, Snake, Visitor Counter, typing effects, and decorative badge walls. The single existing `assets/header.svg` may use restrained animation to illustrate real project work; it must have a meaningful static state and respect `prefers-reduced-motion`. Do not add other animated assets without an explicit request.
+- **OpenCode badge**, if used, refers to OpenCode Harness (opencode.ai), not OpenAI. Keep it logoless.
+- **Projects** must be real repositories owned by AndersonTavares0. Use accurate names, short factual descriptions, a `**Stack:**` line, and a `[Repository]` link. Avoid marketing slogans and unsupported claims.
+- **Git workflow.** Make content changes on a branch and open a PR; do not push directly to `main`.
 
 ## README Section Order
 
 Header → About Me → Current Focus → Tech Stack → Currently Studying → Featured Projects
 
-- About Me: paragraph form, no bullets.
-- Tech Stack: badges in 2 categories (Languages, Tools & Environments).
+- About Me: paragraph form.
+- Tech Stack: badges in two categories (Languages, Tools & Environments).
 - Currently Studying: text only, no badges.
-- Featured Projects: 3 repos in order of relevance.
+- Featured Projects: three repositories, ordered by relevance.
