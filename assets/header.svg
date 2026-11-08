@@ -1,48 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 120" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 152" role="img" aria-labelledby="title desc">
 <title id="title">Data, software and systems</title>
-<desc id="desc">An animated comparison of on-time and late delivery reviews, a course library interface, and inference throughput versus GPU memory.</desc>
+<desc id="desc">Animated panels show Olist review averages, a course-library application and a small-model performance scatterplot. Motion can be disabled in accessibility settings.</desc>
 <style>
-  .panel{fill:#161b22;stroke:#30363d;stroke-width:1}
-  .label{fill:#8b949e;font:600 10px Arial,sans-serif;letter-spacing:1px}
-  .detail{fill:#c9d1d9;font:10px Arial,sans-serif}
-  .bar{transform-box:fill-box;transform-origin:center bottom;animation:grow 5.8s ease-in-out infinite}
-  .b2{animation-delay:.25s}
-  .window{animation:reveal 5.8s ease-in-out infinite}
-  .point{animation:appear 5.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-  .p2{animation-delay:.2s}.p3{animation-delay:.4s}.p4{animation-delay:.6s}.p5{animation-delay:.8s}
-  @keyframes grow{0%,8%{transform:scaleY(.06);opacity:.3}30%,85%{transform:scaleY(1);opacity:1}100%{transform:scaleY(.06);opacity:.3}}
-  @keyframes reveal{0%,16%{opacity:.25}38%,88%{opacity:1}100%{opacity:.25}}
-  @keyframes appear{0%,35%{opacity:.15;transform:scale(.5)}60%,90%{opacity:1;transform:scale(1)}100%{opacity:.15;transform:scale(.5)}}
-  @media(prefers-reduced-motion:reduce){.bar,.window,.point{animation:none!important;opacity:1!important;transform:none!important}}
+.panel{fill:#161b22;stroke:#30363d;stroke-width:1}
+.label{fill:#8b949e;font:600 10px Arial,sans-serif;letter-spacing:.8px}
+.sub{fill:#c9d1d9;font:10px Arial,sans-serif}
+.small{fill:#8b949e;font:9px Arial,sans-serif}
+.bar{transform-box:fill-box;transform-origin:center bottom;animation:grow 6s ease-in-out infinite}
+.late{animation-delay:.18s}
+.window{animation:fade 6s ease-in-out infinite}
+.point{animation:pop 6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.p2{animation-delay:.15s}.p3{animation-delay:.3s}.p4{animation-delay:.45s}.p5{animation-delay:.6s}
+@keyframes grow{0%,7%{transform:scaleY(.08);opacity:.4}27%,85%{transform:scaleY(1);opacity:1}100%{transform:scaleY(.08);opacity:.4}}
+@keyframes fade{0%,15%{opacity:.35}38%,88%{opacity:1}100%{opacity:.35}}
+@keyframes pop{0%,32%{opacity:.25;transform:scale(.5)}56%,90%{opacity:1;transform:scale(1)}100%{opacity:.25;transform:scale(.5)}}
+@media(prefers-reduced-motion:reduce){.bar,.window,.point{animation:none!important;opacity:1!important;transform:none!important}}
 </style>
-<rect x="1" y="1" width="202" height="106" rx="8" class="panel"/>
-<rect x="219" y="1" width="202" height="106" rx="8" class="panel"/>
-<rect x="437" y="1" width="202" height="106" rx="8" class="panel"/>
-<text x="14" y="20" class="label">01 / DATA</text><text x="232" y="20" class="label">02 / SOFTWARE</text><text x="450" y="20" class="label">03 / SYSTEMS</text>
-<text x="14" y="35" class="detail">Olist delivery reviews</text>
-<path d="M18 84H188" stroke="#484f58"/>
-<rect class="bar" x="43" y="46" width="35" height="38" rx="2" fill="#3fb950"/>
-<rect class="bar b2" x="125" y="64" width="35" height="20" rx="2" fill="#58a6ff"/>
-<text x="60" y="43" class="detail" text-anchor="middle">4.29</text>
-<text x="142" y="61" class="detail" text-anchor="middle">2.27</text>
-<text x="60" y="97" class="detail" text-anchor="middle">On-time</text>
-<text x="142" y="97" class="detail" text-anchor="middle">Late</text>
+<rect x="1" y="1" width="210" height="138" rx="8" class="panel"/>
+<rect x="225" y="1" width="210" height="138" rx="8" class="panel"/>
+<rect x="449" y="1" width="210" height="138" rx="8" class="panel"/>
+<text x="15" y="21" class="label">01 / DATA</text>
+<text x="239" y="21" class="label">02 / SOFTWARE</text>
+<text x="463" y="21" class="label">03 / SYSTEMS</text>
+<text x="15" y="39" class="sub">Olist review averages</text>
+<text x="239" y="39" class="sub">Course library</text>
+<text x="463" y="39" class="sub">Inference benchmarks</text>
+<path d="M20 113H193" stroke="#484f58"/>
+<rect class="bar" x="44" y="66" width="42" height="47" rx="3" fill="#3fb950"/>
+<rect class="bar late" x="125" y="89" width="42" height="24" rx="3" fill="#58a6ff"/>
+<text x="65" y="60" class="sub" text-anchor="middle">4.29</text>
+<text x="146" y="83" class="sub" text-anchor="middle">2.27</text>
+<text x="65" y="128" class="small" text-anchor="middle">On-time</text>
+<text x="146" y="128" class="small" text-anchor="middle">Late</text>
 <g class="window">
-<rect x="232" y="42" width="176" height="54" rx="5" fill="#0d1117" stroke="#484f58"/>
-<path d="M232 56H408" stroke="#484f58"/>
-<circle cx="242" cy="49" r="2.3" fill="#f85149"/><circle cx="251" cy="49" r="2.3" fill="#d29922"/><circle cx="260" cy="49" r="2.3" fill="#3fb950"/>
-<rect x="242" y="64" width="46" height="24" rx="3" fill="#21262d"/>
-<path d="M248 71H281M248 77H273" stroke="#58a6ff" stroke-width="3" stroke-linecap="round"/>
-<path d="M299 66H391M299 75H372M299 84H384" stroke="#8b949e" stroke-width="4" stroke-linecap="round"/>
+<rect x="239" y="52" width="182" height="75" rx="5" fill="#0d1117" stroke="#484f58"/>
+<path d="M239 68H421" stroke="#484f58"/>
+<circle cx="250" cy="60" r="2.5" fill="#f85149"/>
+<circle cx="260" cy="60" r="2.5" fill="#d29922"/>
+<circle cx="270" cy="60" r="2.5" fill="#3fb950"/>
+<rect x="250" y="79" width="52" height="36" rx="3" fill="#21262d"/>
+<path d="M257 87H295M257 96H285M257 105H291" stroke="#58a6ff" stroke-width="3" stroke-linecap="round"/>
+<path d="M314 83H403M314 96H382M314 109H395" stroke="#8b949e" stroke-width="4" stroke-linecap="round"/>
 </g>
-<path d="M451 88V42M451 88H625" stroke="#484f58" fill="none"/>
+<path d="M467 56V113H640" stroke="#484f58" fill="none"/>
+<path d="M467 84H640" stroke="#30363d" stroke-dasharray="3 5"/>
 <g fill="#58a6ff">
-<circle class="point" cx="468" cy="49" r="4"/>
-<circle class="point p2" cx="488" cy="64" r="4"/>
-<circle class="point p3" cx="513" cy="73" r="4"/>
-<circle class="point p4" cx="547" cy="77" r="4"/>
-<circle class="point p5" cx="592" cy="82" r="4"/>
+<circle class="point" cx="485" cy="67" r="4"/>
+<circle class="point p2" cx="507" cy="82" r="4"/>
+<circle class="point p3" cx="535" cy="92" r="4"/>
+<circle class="point p4" cx="570" cy="99" r="4"/>
+<circle class="point p5" cx="616" cy="106" r="4"/>
 </g>
-<text x="455" y="101" class="detail">VRAM →</text>
-<text x="617" y="36" text-anchor="end" class="detail">tok/s ↑</text>
+<text x="470" y="128" class="small">VRAM →</text>
+<text x="638" y="128" class="small" text-anchor="end">Higher throughput ↑</text>
 </svg>
