@@ -1,140 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 120" role="img" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-  <!-- One 6s cycle, three phases: bars 0–0.2, app window 0.2–0.5, benchmark 0.45–0.8; a fade begins at 0.93 and elements shrink out through 1.0 -->
-  <defs>
-    <style>
-      .cap { fill: #7d8590; font-size: 9px; letter-spacing: 1.5px; font-family: ui-sans-serif, system-ui, sans-serif; }
-      .val { font-size: 8px; }
-    </style>
-  </defs>
-
-  <!-- 01 · DATA — real Olist satisfaction chart: 5.24 on-time, 2.71 / 1.87 / 1.72 / 1.25 by delivery delay (ds-portfolio) -->
-  <g>
-    <rect x="8" y="8" width="200" height="84" rx="8" fill="#8b949e" fill-opacity="0.07" stroke="#57606a" stroke-width="2"/>
-    <text x="20" y="26" class="cap">01 · DATA</text>
-    <line x1="24" y1="32" x2="192" y2="32" stroke="#8b949e" stroke-width="1" stroke-dasharray="2 4" opacity="0.35"/>
-    <line x1="24" y1="74" x2="192" y2="74" stroke="#7d8590" stroke-width="1.5"/>
-    <g transform="translate(40,74)">
-      <rect x="-8" y="-34" width="16" height="34" rx="2" fill="#2da44e" opacity="0">
-        <animateTransform attributeName="transform" type="scale" additive="sum" calcMode="spline" keySplines="0 0 1 1; 0 0 0.2 1; 0 0 1 1; 0 0 1 1" values="0 1;0 1;1 1;1 1;0 0" keyTimes="0;0.03;0.08;0.96;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.03;0.93;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-      </rect>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 172" role="img" aria-labelledby="title desc">
+  <title id="title">Data, software and systems</title>
+  <desc id="desc">Three simple panels show a bar chart, an application window and a benchmark scatterplot. Static artwork with no animation.</desc>
+  <rect width="900" height="172" rx="16" fill="#0d1117"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g fill="#161b22" stroke="#30363d">
+      <rect x="16" y="16" width="278" height="140" rx="10"/>
+      <rect x="311" y="16" width="278" height="140" rx="10"/>
+      <rect x="606" y="16" width="278" height="140" rx="10"/>
     </g>
-    <g transform="translate(72,74)">
-      <rect x="-8" y="-18" width="16" height="18" rx="2" fill="#8b949e" opacity="0">
-        <animateTransform attributeName="transform" type="scale" additive="sum" calcMode="spline" keySplines="0 0 1 1; 0 0 0.2 1; 0 0 1 1; 0 0 1 1" values="0 1;0 1;1 1;1 1;0 0" keyTimes="0;0.06;0.11;0.96;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.06;0.93;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-      </rect>
+    <g fill="#c9d1d9" font-size="15" font-weight="600">
+      <text x="34" y="43">DATA</text>
+      <text x="329" y="43">SOFTWARE</text>
+      <text x="624" y="43">SYSTEMS</text>
     </g>
-    <g transform="translate(104,74)">
-      <rect x="-8" y="-12" width="16" height="12" rx="2" fill="#8b949e" opacity="0">
-        <animateTransform attributeName="transform" type="scale" additive="sum" calcMode="spline" keySplines="0 0 1 1; 0 0 0.2 1; 0 0 1 1; 0 0 1 1" values="0 1;0 1;1 1;1 1;0 0" keyTimes="0;0.09;0.14;0.96;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.09;0.93;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-      </rect>
+    <g stroke="#484f58" stroke-width="1">
+      <path d="M38 125H272 M38 65V125" fill="none"/>
+      <path d="M628 125H860 M628 65V125" fill="none"/>
     </g>
-    <g transform="translate(136,74)">
-      <rect x="-8" y="-11" width="16" height="11" rx="2" fill="#8b949e" opacity="0">
-        <animateTransform attributeName="transform" type="scale" additive="sum" calcMode="spline" keySplines="0 0 1 1; 0 0 0.2 1; 0 0 1 1; 0 0 1 1" values="0 1;0 1;1 1;1 1;0 0" keyTimes="0;0.12;0.17;0.96;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.93;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-      </rect>
+    <g fill="#58a6ff">
+      <rect x="55" y="84" width="28" height="41" rx="3"/>
+      <rect x="100" y="72" width="28" height="53" rx="3"/>
+      <rect x="145" y="96" width="28" height="29" rx="3"/>
+      <rect x="190" y="62" width="28" height="63" rx="3"/>
+      <rect x="235" y="77" width="28" height="48" rx="3"/>
     </g>
-    <g transform="translate(168,74)">
-      <rect x="-8" y="-8" width="16" height="8" rx="2" fill="#8b949e" opacity="0">
-        <animateTransform attributeName="transform" type="scale" additive="sum" calcMode="spline" keySplines="0 0 1 1; 0 0 0.2 1; 0 0 1 1; 0 0 1 1" values="0 1;0 1;1 1;1 1;0 0" keyTimes="0;0.15;0.2;0.96;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.93;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-      </rect>
+    <rect x="330" y="58" width="240" height="80" rx="6" fill="#0d1117" stroke="#484f58"/>
+    <path d="M330 80H570" stroke="#484f58"/>
+    <circle cx="344" cy="69" r="3" fill="#f85149"/>
+    <circle cx="355" cy="69" r="3" fill="#d29922"/>
+    <circle cx="366" cy="69" r="3" fill="#3fb950"/>
+    <rect x="342" y="92" width="64" height="34" rx="4" fill="#21262d"/>
+    <g fill="#8b949e">
+      <rect x="416" y="93" width="132" height="5" rx="2"/>
+      <rect x="416" y="105" width="103" height="5" rx="2"/>
+      <rect x="416" y="117" width="119" height="5" rx="2"/>
     </g>
-    <g opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.18;0.93;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-      <text x="40" y="37" class="val" text-anchor="middle" fill="#3fb950">5.24</text>
-      <text x="72" y="52" class="val" text-anchor="middle" fill="#8b949e">2.71</text>
-      <text x="104" y="58" class="val" text-anchor="middle" fill="#8b949e">1.87</text>
-      <text x="136" y="59" class="val" text-anchor="middle" fill="#8b949e">1.72</text>
-      <text x="168" y="62" class="val" text-anchor="middle" fill="#8b949e">1.25</text>
+    <rect x="342" y="92" width="64" height="4" rx="2" fill="#3fb950"/>
+    <g fill="#58a6ff">
+      <circle cx="649" cy="110" r="5"/>
+      <circle cx="677" cy="94" r="5"/>
+      <circle cx="711" cy="103" r="5"/>
+      <circle cx="742" cy="79" r="5"/>
+      <circle cx="781" cy="87" r="5"/>
+      <circle cx="818" cy="67" r="5"/>
     </g>
-  </g>
-
-  <!-- 02 · SOFTWARE — LearnVault desktop app assembling: chrome, sidebar, code rows, load meter -->
-  <g>
-    <rect x="224" y="8" width="200" height="84" rx="8" fill="#8b949e" fill-opacity="0.07" stroke="#57606a" stroke-width="2"/>
-    <text x="236" y="26" class="cap">02 · SOFTWARE</text>
-    <circle cx="238" cy="40" r="3" fill="#2da44e"/>
-    <circle cx="248" cy="40" r="3" fill="#8b949e"/>
-    <circle cx="258" cy="40" r="3" fill="#8b949e"/>
-    <line x1="232" y1="48" x2="420" y2="48" stroke="#7d8590" stroke-width="1.5"/>
-    <rect x="232" y="56" width="26" height="26" rx="3" fill="#8b949e" fill-opacity="0.3"/>
-    <rect x="234" y="78" width="22" height="4" rx="2" fill="#8b949e" opacity="0.25"/>
-    <g transform="translate(234,78)">
-      <rect x="0" y="0" width="22" height="4" rx="2" fill="#2da44e" opacity="0">
-        <animateTransform attributeName="transform" type="scale" additive="sum" calcMode="spline" keySplines="0 0 1 1; 0 0 0.2 1; 0 0 1 1; 0 0 1 1" values="0 1;0 1;1 1;1 1;0 0" keyTimes="0;0.3;0.5;0.96;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.3;0.93;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-    <g transform="translate(266,57)">
-      <rect x="0" y="0" width="96" height="5" rx="2.5" fill="#8b949e" opacity="0">
-        <animateTransform attributeName="transform" type="scale" additive="sum" calcMode="spline" keySplines="0 0 1 1; 0 0 0.2 1; 0 0 1 1; 0 0 1 1" values="0 1;0 1;1 1;1 1;0 0" keyTimes="0;0.24;0.29;0.96;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.24;0.93;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-    <g transform="translate(266,66.5)">
-      <rect x="0" y="0" width="72" height="5" rx="2.5" fill="#2da44e" opacity="0">
-        <animateTransform attributeName="transform" type="scale" additive="sum" calcMode="spline" keySplines="0 0 1 1; 0 0 0.2 1; 0 0 1 1; 0 0 1 1" values="0 1;0 1;1 1;1 1;0 0" keyTimes="0;0.275;0.325;0.96;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.275;0.93;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-    <g transform="translate(266,76)">
-      <rect x="0" y="0" width="110" height="5" rx="2.5" fill="#8b949e" opacity="0">
-        <animateTransform attributeName="transform" type="scale" additive="sum" calcMode="spline" keySplines="0 0 1 1; 0 0 0.2 1; 0 0 1 1; 0 0 1 1" values="0 1;0 1;1 1;1 1;0 0" keyTimes="0;0.31;0.36;0.96;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.31;0.93;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-    <g transform="translate(266,85.5)">
-      <rect x="0" y="0" width="64" height="5" rx="2.5" fill="#8b949e" opacity="0">
-        <animateTransform attributeName="transform" type="scale" additive="sum" calcMode="spline" keySplines="0 0 1 1; 0 0 0.2 1; 0 0 1 1; 0 0 1 1" values="0 1;0 1;1 1;1 1;0 0" keyTimes="0;0.345;0.395;0.96;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.345;0.93;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-      </rect>
+    <path d="M649 110L677 94L711 103L742 79L781 87L818 67" fill="none" stroke="#3fb950" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#8b949e" font-size="11">
+      <text x="34" y="145">Reproducible analysis</text>
+      <text x="329" y="145">Local-first applications</text>
+      <text x="624" y="145">Measured trade-offs</text>
     </g>
   </g>
-
-  <!-- 03 · SYSTEMS — llm-research-bench pareto frontier; dots probe, best model lands inside the 4 GB cutoff -->
-  <g>
-    <rect x="440" y="8" width="200" height="84" rx="8" fill="#8b949e" fill-opacity="0.07" stroke="#57606a" stroke-width="2"/>
-    <text x="452" y="26" class="cap">03 · SYSTEMS</text>
-    <line x1="452" y1="34" x2="452" y2="74" stroke="#7d8590" stroke-width="1.5"/>
-    <line x1="452" y1="74" x2="608" y2="74" stroke="#7d8590" stroke-width="1.5"/>
-    <line x1="598" y1="18" x2="598" y2="74" stroke="#8b949e" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.5"/>
-    <text x="598" y="86" class="val" text-anchor="middle" fill="#7d8590">4 GB</text>
-    <path d="M 456 74 C 470 71, 486 63, 500 53 C 520 39, 548 28, 588 20" fill="none" stroke="#7d8590" stroke-width="1.5" stroke-dasharray="4 4"/>
-    <circle cx="476" cy="71.5" r="3" fill="#8b949e" opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.45;0.93;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="492" cy="63" r="3" fill="#8b949e" opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.52;0.93;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="508" cy="55" r="3" fill="#8b949e" opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.59;0.93;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="528" cy="44" r="3" fill="#8b949e" opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.66;0.93;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="552" cy="34.5" r="3" fill="#8b949e" opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.73;0.93;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="588" cy="20" r="4" fill="#2da44e" opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.75;0.93;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="588" cy="20" r="5" fill="none" stroke="#2da44e" stroke-width="1.5" opacity="0">
-      <animate attributeName="r" values="5;5;11;11" keyTimes="0;0.76;0.97;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0;0.7;0;0" keyTimes="0;0.76;0.8;0.97;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- data flowing between the three practices -->
-  <line x1="212" y1="50" x2="220" y2="50" stroke="#7d8590" stroke-width="1.5" stroke-dasharray="2 4" opacity="0.6">
-    <animate attributeName="stroke-dashoffset" values="0;-6" dur="1.2s" begin="0s" repeatCount="indefinite"/>
-  </line>
-  <line x1="428" y1="50" x2="436" y2="50" stroke="#7d8590" stroke-width="1.5" stroke-dasharray="2 4" opacity="0.6">
-    <animate attributeName="stroke-dashoffset" values="0;-6" dur="1.2s" begin="0s" repeatCount="indefinite"/>
-  </line>
-
-  <text x="320" y="112" class="cap" text-anchor="middle" letter-spacing="3" opacity="0.8">DATA → SOFTWARE → SYSTEMS</text>
 </svg>
