@@ -4,7 +4,7 @@
 
 **Software Engineering & Data Science student** · Rio de Janeiro, Brazil · [LinkedIn](https://www.linkedin.com/in/andersonlimatavares/)
 
-<img src="assets/header.svg" width="640" alt="Animated panels showing an Olist delivery comparison, a course-library interface, and a small-model benchmark.">
+<img src="assets/header.svg" width="660" alt="Animated panels showing an Olist delivery comparison, a course-library interface, and a small-model benchmark.">
 
 </div>
 
@@ -38,8 +38,8 @@ Building backend fundamentals, improving my understanding of statistics and mach
         <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" alt="PostgreSQL">
         <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" alt="Docker">
         <img src="https://img.shields.io/badge/Linux-24292f?logo=linux&logoColor=white" alt="Linux">
+        <img src="https://img.shields.io/badge/dbt-FF694B?logo=dbt&logoColor=white" alt="dbt">
         <img src="https://img.shields.io/badge/Tauri-24C8DB?logo=tauri&logoColor=white" alt="Tauri">
-        <img src="https://img.shields.io/badge/Svelte-FF3E00?logo=svelte&logoColor=white" alt="Svelte">
         <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white" alt="GitHub Actions">
       </td>
     </tr>
@@ -56,7 +56,7 @@ AWS · Applied Statistics · Machine Learning · Backend Engineering
 
 Three reproducible studies using the Olist e-commerce dataset: delivery performance, late-delivery risk prediction, and customer complaints. The site includes the results, code, and limitations. The prediction study concludes that the model should **not** be deployed as an unmonitored operational queue.
 
-**Stack:** Python · SQL · PostgreSQL · dbt · React · TypeScript
+**Stack:** Python · SQL · PostgreSQL · dbt
 
 [Repository](https://github.com/AndersonTavares0/applied-data-science) · [Published studies](https://AndersonTavares0.github.io/applied-data-science/)
 
@@ -64,7 +64,7 @@ Three reproducible studies using the Olist e-commerce dataset: delivery performa
 
 A self-hosted course library with a browser interface and offline desktop application. It indexes existing course directories, tracks study progress, and manages flashcards without altering source files.
 
-**Stack:** Rust · Tauri 2 · Svelte 5 · TypeScript · SQLite
+**Stack:** Rust · Tauri · Svelte · SQLite
 
 [Repository](https://github.com/AndersonTavares0/LearnVault)
 
