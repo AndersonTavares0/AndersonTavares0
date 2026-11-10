@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 154" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 188" role="img" aria-labelledby="title desc">
 <title id="title">Data, Software, and Systems Engineering</title>
-<desc id="desc">Animated interactive panels showing Olist retail delivery satisfaction study, LearnVault local-first course workspace, and small language model Pareto inference benchmarks on 4GB VRAM GPU.</desc>
+<desc id="desc">Interactive animated architecture showing the correlation from Data Science to Software Engineering to Systems &amp; Physical Infrastructure.</desc>
 <style>
   :root {
     --bg-panel: #161b22;
@@ -45,32 +45,55 @@
   .grid { stroke: var(--grid-line); stroke-width: 1px; }
   .axis { stroke: var(--axis-line); stroke-width: 1.2px; }
 
-  /* Animation: 6s cycle */
+  /* Bar Growth and Coordinated Text Animations */
   @keyframes barGrow {
-    0%, 8% { transform: scaleY(0.1); opacity: 0.4; }
-    24%, 85% { transform: scaleY(1); opacity: 1; }
-    94%, 100% { transform: scaleY(0.1); opacity: 0.4; }
+    0%, 8% { transform: scaleY(0.08); opacity: 0.3; }
+    26%, 86% { transform: scaleY(1); opacity: 1; }
+    94%, 100% { transform: scaleY(0.08); opacity: 0.3; }
   }
-  .bar-grow {
+  .bar-col-1 {
     transform-box: fill-box;
     transform-origin: center bottom;
     animation: barGrow 6.5s cubic-bezier(0.2, 0.8, 0.2, 1) infinite;
   }
-  .bar-late { animation-delay: 0.2s; }
+  .bar-col-2 {
+    transform-box: fill-box;
+    transform-origin: center bottom;
+    animation: barGrow 6.5s cubic-bezier(0.2, 0.8, 0.2, 1) infinite;
+    animation-delay: 0.15s;
+  }
 
-  @keyframes pulseDrop {
-    0%, 15% { opacity: 0; stroke-dashoffset: 40; }
-    30%, 85% { opacity: 0.85; stroke-dashoffset: 0; }
-    94%, 100% { opacity: 0; stroke-dashoffset: 40; }
+  @keyframes textFade {
+    0%, 14% { opacity: 0; transform: translateY(10px); }
+    30%, 86% { opacity: 1; transform: translateY(0); }
+    94%, 100% { opacity: 0; transform: translateY(10px); }
+  }
+  .val-text-1 {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: textFade 6.5s cubic-bezier(0.2, 0.8, 0.2, 1) infinite;
+  }
+  .val-text-2 {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: textFade 6.5s cubic-bezier(0.2, 0.8, 0.2, 1) infinite;
+    animation-delay: 0.15s;
+  }
+
+  @keyframes dropCurve {
+    0%, 18% { opacity: 0; stroke-dashoffset: 45; }
+    34%, 86% { opacity: 0.85; stroke-dashoffset: 0; }
+    94%, 100% { opacity: 0; stroke-dashoffset: 45; }
   }
   .drop-curve {
-    stroke-dasharray: 40;
-    animation: pulseDrop 6.5s ease-in-out infinite;
+    stroke-dasharray: 45;
+    animation: dropCurve 6.5s ease-in-out infinite;
   }
 
+  /* LearnVault Workspace Animations */
   @keyframes progressFill {
-    0%, 15% { width: 0px; }
-    40%, 85% { width: 94px; }
+    0%, 16% { width: 0px; }
+    40%, 86% { width: 94px; }
     94%, 100% { width: 0px; }
   }
   .progress-bar-fill {
@@ -78,17 +101,18 @@
   }
 
   @keyframes playHead {
-    0%, 18% { x2: 322px; }
-    45%, 85% { x2: 388px; }
-    94%, 100% { x2: 322px; }
+    0%, 18% { x2: 318px; }
+    45%, 86% { x2: 388px; }
+    94%, 100% { x2: 318px; }
   }
   .play-head {
     animation: playHead 6.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
   }
 
+  /* Systems Pareto Bench Animations */
   @keyframes drawPareto {
-    0%, 25% { stroke-dashoffset: 140; opacity: 0; }
-    50%, 85% { stroke-dashoffset: 0; opacity: 1; }
+    0%, 22% { stroke-dashoffset: 140; opacity: 0; }
+    48%, 86% { stroke-dashoffset: 0; opacity: 1; }
     94%, 100% { stroke-dashoffset: 140; opacity: 0; }
   }
   .pareto-line {
@@ -97,9 +121,9 @@
   }
 
   @keyframes popNode {
-    0%, 30% { transform: scale(0.3); opacity: 0; }
-    52%, 85% { transform: scale(1); opacity: 1; }
-    94%, 100% { transform: scale(0.3); opacity: 0; }
+    0%, 26% { transform: scale(0.2); opacity: 0; }
+    50%, 86% { transform: scale(1); opacity: 1; }
+    94%, 100% { transform: scale(0.2); opacity: 0; }
   }
   .pop-dot {
     transform-box: fill-box;
@@ -113,7 +137,7 @@
 
   @keyframes ringPulse {
     0%, 45% { transform: scale(0.6); opacity: 0; }
-    60%, 80% { transform: scale(1.4); opacity: 0.8; }
+    60%, 82% { transform: scale(1.4); opacity: 0.8; }
     88%, 100% { transform: scale(1.6); opacity: 0; }
   }
   .pulse-ring {
@@ -122,8 +146,17 @@
     animation: ringPulse 6.5s ease-out infinite;
   }
 
+  /* Bottom Connecting Flow Animation */
+  @keyframes flowDash {
+    0% { stroke-dashoffset: 16; }
+    100% { stroke-dashoffset: 0; }
+  }
+  .flow-track {
+    animation: flowDash 1.2s linear infinite;
+  }
+
   @media (prefers-reduced-motion: reduce) {
-    .bar-grow, .drop-curve, .progress-bar-fill, .play-head, .pareto-line, .pop-dot, .pulse-ring {
+    .bar-col-1, .bar-col-2, .val-text-1, .val-text-2, .drop-curve, .progress-bar-fill, .play-head, .pareto-line, .pop-dot, .pulse-ring, .flow-track {
       animation: none !important;
       transform: none !important;
       opacity: 1 !important;
@@ -134,9 +167,11 @@
   }
 </style>
 
-<!-- PANEL 1: DATA (Olist E-commerce Satisfaction Impact) -->
+<!-- ========================================== -->
+<!-- PANEL 1: DATA (Olist Satisfaction Impact) -->
+<!-- ========================================== -->
 <g>
-  <rect x="1" y="1" width="212" height="152" rx="8" class="panel"/>
+  <rect x="1" y="1" width="212" height="148" rx="8" class="panel"/>
   <text x="15" y="21" class="label">01 / DATA</text>
   <text x="15" y="37" class="sub">Olist Delivery Impact</text>
 
@@ -146,115 +181,147 @@
 
   <!-- Coordinates & Grid -->
   <line x1="18" y1="56" x2="198" y2="56" class="grid" stroke-dasharray="2 3"/>
-  <line x1="18" y1="88" x2="198" y2="88" class="grid" stroke-dasharray="2 3"/>
-  <line x1="18" y1="120" x2="198" y2="120" class="axis"/>
+  <line x1="18" y1="86" x2="198" y2="86" class="grid" stroke-dasharray="2 3"/>
+  <line x1="18" y1="116" x2="198" y2="116" class="axis"/>
 
   <!-- Drop indicator curve -->
-  <path d="M 65 67 Q 102 70 145 94" fill="none" stroke="var(--c-red)" stroke-width="1.8" stroke-dasharray="3 3" class="drop-curve"/>
+  <path d="M 65 67 Q 102 70 145 92" fill="none" stroke="var(--c-red)" stroke-width="1.8" stroke-dasharray="3 3" class="drop-curve"/>
 
-  <!-- Bar: On-time (Score 4.29) -->
-  <rect class="bar-grow" x="46" y="66" width="38" height="54" rx="3" fill="var(--c-green)"/>
-  <text x="65" y="60" text-anchor="middle" class="val" fill="var(--c-green)">4.29★</text>
-  <text x="65" y="134" text-anchor="middle" class="small">On-time</text>
+  <!-- Bar 1: On-time (Score 4.29) -->
+  <rect class="bar-col-1" x="46" y="66" width="38" height="50" rx="3" fill="var(--c-green)"/>
+  <text class="val-text-1 val" x="65" y="60" text-anchor="middle" fill="var(--c-green)">4.29★</text>
+  <text x="65" y="130" text-anchor="middle" class="small">On-time</text>
 
-  <!-- Bar: Delayed (Score 2.27) -->
-  <rect class="bar-grow bar-late" x="126" y="93" width="38" height="27" rx="3" fill="var(--c-blue)"/>
-  <text x="145" y="87" text-anchor="middle" class="val" fill="var(--c-blue)">2.27★</text>
-  <text x="145" y="134" text-anchor="middle" class="small">Delayed</text>
+  <!-- Bar 2: Delayed (Score 2.27) -->
+  <rect class="bar-col-2" x="126" y="90" width="38" height="26" rx="3" fill="var(--c-blue)"/>
+  <text class="val-text-2 val" x="145" y="84" text-anchor="middle" fill="var(--c-blue)">2.27★</text>
+  <text x="145" y="130" text-anchor="middle" class="small">Delayed</text>
 </g>
 
-<!-- Connectors between practices -->
-<polygon points="216,74 221,77 216,80" fill="var(--axis-line)" opacity="0.7"/>
-
-<!-- PANEL 2: SOFTWARE (LearnVault Study Workspace) -->
+<!-- ========================================== -->
+<!-- PANEL 2: SOFTWARE (LearnVault Workspace)  -->
+<!-- ========================================== -->
 <g>
-  <rect x="225" y="1" width="212" height="152" rx="8" class="panel"/>
+  <rect x="225" y="1" width="212" height="148" rx="8" class="panel"/>
   <text x="239" y="21" class="label">02 / SOFTWARE</text>
   <text x="239" y="37" class="sub">LearnVault Workspace</text>
 
   <!-- Mini App Window -->
-  <g transform="translate(0, 2)">
-    <rect x="237" y="46" width="188" height="92" rx="6" fill="var(--c-app-bg)" stroke="var(--border-panel)" stroke-width="1"/>
+  <g transform="translate(0, 0)">
+    <rect x="237" y="46" width="188" height="90" rx="6" fill="var(--c-app-bg)" stroke="var(--border-panel)" stroke-width="1"/>
     <!-- App Window Header -->
-    <path d="M 237 52 A 6 6 0 0 1 243 46 L 419 46 A 6 6 0 0 1 425 52 L 425 64 L 237 64 Z" fill="var(--c-app-header)"/>
-    <line x1="237" y1="64" x2="425" y2="64" stroke="var(--border-panel)" stroke-width="0.8"/>
+    <path d="M 237 52 A 6 6 0 0 1 243 46 L 419 46 A 6 6 0 0 1 425 52 L 425 63 L 237 63 Z" fill="var(--c-app-header)"/>
+    <line x1="237" y1="63" x2="425" y2="63" stroke="var(--border-panel)" stroke-width="0.8"/>
     <!-- Window Controls -->
-    <circle cx="247" cy="55" r="2.5" fill="#f85149"/>
-    <circle cx="255" cy="55" r="2.5" fill="#d29922"/>
-    <circle cx="263" cy="55" r="2.5" fill="#3fb950"/>
-    <text x="331" y="58" text-anchor="middle" font-size="7.5" fill="var(--text-label)">LearnVault · Tauri 2</text>
+    <circle cx="247" cy="54.5" r="2.5" fill="#f85149"/>
+    <circle cx="255" cy="54.5" r="2.5" fill="#d29922"/>
+    <circle cx="263" cy="54.5" r="2.5" fill="#3fb950"/>
+    <text x="331" y="57.5" text-anchor="middle" font-size="7.5" fill="var(--text-label)">LearnVault · Tauri 2</text>
 
     <!-- Sidebar: Course Directory Tree -->
-    <rect x="238" y="65" width="48" height="72" fill="var(--c-app-sidebar)"/>
-    <line x1="286" y1="65" x2="286" y2="137" stroke="var(--border-panel)" stroke-width="0.8"/>
+    <rect x="238" y="64" width="48" height="71" fill="var(--c-app-sidebar)"/>
+    <line x1="286" y1="64" x2="286" y2="135" stroke="var(--border-panel)" stroke-width="0.8"/>
     <!-- Tree Rows -->
-    <rect x="243" y="72" width="34" height="3.5" rx="1" fill="var(--c-blue)" opacity="0.85"/>
-    <rect x="247" y="79" width="28" height="2.5" rx="1" fill="var(--text-label)" opacity="0.4"/>
-    <rect x="247" y="85" width="32" height="2.5" rx="1" fill="var(--text-label)" opacity="0.4"/>
-    <rect x="243" y="93" width="36" height="3.5" rx="1" fill="var(--text-label)" opacity="0.7"/>
-    <rect x="247" y="100" width="26" height="2.5" rx="1" fill="var(--text-label)" opacity="0.4"/>
-    <rect x="247" y="106" width="30" height="2.5" rx="1" fill="var(--text-label)" opacity="0.4"/>
-    <rect x="243" y="114" width="38" height="3.5" rx="1" fill="var(--text-label)" opacity="0.7"/>
-    <rect x="247" y="121" width="28" height="2.5" rx="1" fill="var(--text-label)" opacity="0.4"/>
+    <rect x="243" y="70" width="34" height="3" rx="1" fill="var(--c-blue)" opacity="0.85"/>
+    <rect x="247" y="76" width="28" height="2.5" rx="1" fill="var(--text-label)" opacity="0.4"/>
+    <rect x="247" y="82" width="32" height="2.5" rx="1" fill="var(--text-label)" opacity="0.4"/>
+    <rect x="243" y="89" width="36" height="3" rx="1" fill="var(--text-label)" opacity="0.7"/>
+    <rect x="247" y="95" width="26" height="2.5" rx="1" fill="var(--text-label)" opacity="0.4"/>
+    <rect x="247" y="101" width="30" height="2.5" rx="1" fill="var(--text-label)" opacity="0.4"/>
+    <rect x="243" y="108" width="38" height="3" rx="1" fill="var(--text-label)" opacity="0.7"/>
+    <rect x="247" y="114" width="28" height="2.5" rx="1" fill="var(--text-label)" opacity="0.4"/>
 
     <!-- Main Workspace Content -->
     <!-- Player Card -->
-    <rect x="294" y="71" width="123" height="34" rx="3.5" fill="var(--bg-panel)" stroke="var(--border-panel)" stroke-width="0.8"/>
-    <polygon points="302,83 302,93 311,88" fill="var(--c-blue)"/>
-    <line x1="318" y1="88" x2="408" y2="88" stroke="var(--border-panel)" stroke-width="3" stroke-linecap="round"/>
-    <line class="play-head" x1="318" y1="88" x2="388" y2="88" stroke="var(--c-blue)" stroke-width="3" stroke-linecap="round"/>
+    <rect x="294" y="69" width="123" height="33" rx="3.5" fill="var(--bg-panel)" stroke="var(--border-panel)" stroke-width="0.8"/>
+    <polygon points="302,80 302,90 311,85" fill="var(--c-blue)"/>
+    <line x1="318" y1="85" x2="408" y2="85" stroke="var(--border-panel)" stroke-width="3" stroke-linecap="round"/>
+    <line class="play-head" x1="318" y1="85" x2="388" y2="85" stroke="var(--c-blue)" stroke-width="3" stroke-linecap="round"/>
 
     <!-- Study Progress Row -->
-    <text x="294" y="118" font-size="8" fill="var(--text-label)">Study Progress</text>
-    <text x="417" y="118" text-anchor="end" font-size="8" font-weight="600" fill="var(--c-green)">78%</text>
-    <rect x="294" y="123" width="123" height="5" rx="2.5" fill="var(--border-panel)"/>
-    <rect class="progress-bar-fill" x="294" y="123" width="94" height="5" rx="2.5" fill="var(--c-green)"/>
+    <text x="294" y="115" font-size="8" fill="var(--text-label)">Study Progress</text>
+    <text x="417" y="115" text-anchor="end" font-size="8" font-weight="600" fill="var(--c-green)">78%</text>
+    <rect x="294" y="120" width="123" height="5" rx="2.5" fill="var(--border-panel)"/>
+    <rect class="progress-bar-fill" x="294" y="120" width="94" height="5" rx="2.5" fill="var(--c-green)"/>
   </g>
 </g>
 
-<!-- Connectors between practices -->
-<polygon points="440,74 445,77 440,80" fill="var(--axis-line)" opacity="0.7"/>
-
-<!-- PANEL 3: SYSTEMS (LLM Research Bench - 4 GB GPU Frontier) -->
+<!-- ========================================== -->
+<!-- PANEL 3: SYSTEMS (SLM Inference Bench)    -->
+<!-- ========================================== -->
 <g>
-  <rect x="449" y="1" width="210" height="152" rx="8" class="panel"/>
+  <rect x="449" y="1" width="210" height="148" rx="8" class="panel"/>
   <text x="463" y="21" class="label">03 / SYSTEMS</text>
   <text x="463" y="37" class="sub">SLM Inference Bench</text>
 
-  <!-- Coordinates & Limit Line -->
-  <line x1="467" y1="50" x2="467" y2="120" class="axis"/>
-  <line x1="467" y1="120" x2="643" y2="120" class="axis"/>
+  <!-- 4 GB Hardware Limit Badge (Top Right Header - No collision!) -->
+  <rect x="586" y="12" width="58" height="15" rx="3" fill="var(--c-amber)" fill-opacity="0.16"/>
+  <text x="615" y="22.5" text-anchor="middle" font-size="8" font-weight="600" fill="var(--c-amber)">4 GB LIMIT</text>
 
-  <!-- 4 GB Hardware Ceiling Limit (GTX 1050 Ti) -->
-  <line x1="602" y1="46" x2="602" y2="120" stroke="var(--c-amber)" stroke-width="1.3" stroke-dasharray="3 3"/>
-  <rect x="576" y="44" width="52" height="13" rx="2.5" fill="var(--c-amber)" fill-opacity="0.15"/>
-  <text x="602" y="53.5" text-anchor="middle" font-size="7.5" font-weight="600" fill="var(--c-amber)">4 GB LIMIT</text>
+  <!-- Axes & Boundaries -->
+  <line x1="467" y1="46" x2="467" y2="116" class="axis"/>
+  <line x1="467" y1="116" x2="643" y2="116" class="axis"/>
+
+  <!-- 4 GB Vertical Ceiling Line -->
+  <line x1="615" y1="44" x2="615" y2="116" stroke="var(--c-amber)" stroke-width="1.2" stroke-dasharray="3 3"/>
 
   <!-- Pareto Frontier Curve -->
-  <path class="pareto-line" d="M 473 113 Q 502 92 538 74 T 594 58" fill="none" stroke="var(--c-blue)" stroke-width="1.8" stroke-linecap="round"/>
+  <path class="pareto-line" d="M 473 110 Q 508 88 544 68 T 604 52" fill="none" stroke="var(--c-blue)" stroke-width="1.8" stroke-linecap="round"/>
 
   <!-- Pareto Points -->
   <!-- Q2_K -->
-  <circle class="pop-dot" cx="488" cy="103" r="3" fill="var(--text-label)"/>
+  <circle class="pop-dot" cx="486" cy="100" r="3" fill="var(--text-label)"/>
   <!-- Q4_K_M -->
-  <circle class="pop-dot dot-2" cx="522" cy="83" r="3.5" fill="var(--c-blue)"/>
-  <!-- Q5_K_M (Optimal Sweet Spot) -->
-  <g transform="translate(0, 0)">
-    <circle class="pulse-ring" cx="558" cy="69" r="6" stroke="var(--c-green)" fill="none"/>
-    <circle class="pop-dot dot-3" cx="558" cy="69" r="4.2" fill="var(--c-green)"/>
-  </g>
+  <circle class="pop-dot dot-2" cx="518" cy="82" r="3.5" fill="var(--c-blue)"/>
+
+  <!-- Q5_K_M (Optimal Sweet Spot - Clear Left Alignment, No Collision) -->
+  <circle class="pulse-ring" cx="554" cy="66" r="6.5" stroke="var(--c-green)" fill="none"/>
+  <circle class="pop-dot dot-3" cx="554" cy="66" r="4.2" fill="var(--c-green)"/>
+  <text x="542" y="55" text-anchor="middle" font-size="7.8" font-weight="600" fill="var(--c-green)">Q5_K_M (Sweet spot)</text>
+
   <!-- Q8_0 (Near Limit) -->
-  <circle class="pop-dot dot-4" cx="594" cy="58" r="3.5" fill="var(--c-amber)"/>
-  <!-- FP16 (OOM / Boundary Spill) -->
-  <circle class="pop-dot dot-5" cx="622" cy="52" r="3" fill="var(--c-red)"/>
-  <text x="622" y="45" text-anchor="middle" font-size="7" fill="var(--c-red)">OOM</text>
+  <circle class="pop-dot dot-4" cx="592" cy="54" r="3.5" fill="var(--c-amber)"/>
 
-  <!-- Optimal Label -->
-  <text x="558" y="56" text-anchor="middle" font-size="7.8" font-weight="600" fill="var(--c-green)">Q5_K_M (Sweet spot)</text>
+  <!-- FP16 (OOM Spill Past Boundary) -->
+  <circle class="pop-dot dot-5" cx="630" cy="48" r="3" fill="var(--c-red)"/>
+  <text x="630" y="40" text-anchor="middle" font-size="7.5" font-weight="600" fill="var(--c-red)">OOM</text>
 
-  <!-- Axis labels -->
-  <text x="473" y="58" class="small">tok/s ↑</text>
-  <text x="643" y="134" text-anchor="end" class="small">VRAM →</text>
+  <!-- Axis Labels (Spaced Cleanly) -->
+  <text x="467" y="42" class="small">tok/s ↑</text>
+  <text x="643" y="128" text-anchor="end" class="small">VRAM →</text>
+</g>
+
+<!-- ======================================================= -->
+<!-- BOTTOM CONNECTOR STRIP: DATA -> SOFTWARE -> SYSTEMS    -->
+<!-- ======================================================= -->
+<g>
+  <rect x="1" y="156" width="658" height="30" rx="6" fill="var(--c-app-bg)" stroke="var(--border-panel)" stroke-width="1"/>
+
+  <!-- Practice 1: DATA -->
+  <text x="107" y="174" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9">
+    <tspan fill="var(--c-green)" font-weight="700" letter-spacing="0.5px">DATA</tspan>
+    <tspan fill="var(--text-label)">: Evidence &amp; Models</tspan>
+  </text>
+
+  <!-- Pipeline Connector 1: DATA -> SOFTWARE -->
+  <line x1="200" y1="171" x2="232" y2="171" stroke="var(--axis-line)" stroke-width="1.3" stroke-dasharray="2 3" class="flow-track"/>
+  <polygon points="232,168 237,171 232,174" fill="var(--c-blue)"/>
+
+  <!-- Practice 2: SOFTWARE -->
+  <text x="331" y="174" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9">
+    <tspan fill="var(--c-blue)" font-weight="700" letter-spacing="0.5px">SOFTWARE</tspan>
+    <tspan fill="var(--text-label)">: Products &amp; UI</tspan>
+  </text>
+
+  <!-- Pipeline Connector 2: SOFTWARE -> SYSTEMS -->
+  <line x1="426" y1="171" x2="458" y2="171" stroke="var(--axis-line)" stroke-width="1.3" stroke-dasharray="2 3" class="flow-track"/>
+  <polygon points="458,168 463,171 458,174" fill="var(--c-amber)"/>
+
+  <!-- Practice 3: SYSTEMS -->
+  <text x="554" y="174" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9">
+    <tspan fill="var(--c-amber)" font-weight="700" letter-spacing="0.5px">SYSTEMS</tspan>
+    <tspan fill="var(--text-label)">: Hardware &amp; Limits</tspan>
+  </text>
 </g>
 
 </svg>
